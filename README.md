@@ -8,13 +8,12 @@ It exposes a REST API : https://zanata.ci.cloudbees.com/job/zanata-api-site/site
 ## Zanata
 
 ### How to use
-Copy the files
 
-create a "results" folder
-
-type : python3 ./getstats.py
-
-If you already ran the script, the xml file are saved in "results" folder. Make sure you delete "*stat*" file to make an update.
+```
+git clone https://github.com/Jibec/fedora-translation-statistics
+cd fedora-translation-statistics
+./run.sh
+```
 
 ### How does it works
 It downloads firt the list of all fedora Projets with Zanata's API.
@@ -34,6 +33,6 @@ It may be possible to get Document stats, but I don't see the need at the moment
 
 A script to get Fedora's translation status of RPM available in Fedora.
 
-You need to download "Fedora-23.xml" from https://alt.fedoraproject.org/pub/alt/screenshots/f23/
+You need to download "Fedora-xx.xml" from https://alt.fedoraproject.org/pub/alt/screenshots/fxx/ (where xx is the Fedora version)
 
 This source file is produced by Richard Hughes with : https://github.com/hughsie/appstream-glib
