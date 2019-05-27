@@ -17,30 +17,25 @@
 #
 # @author Jean-Baptiste Holcroft <jb.holcroft@gmail.com>
 
-from __future__ import print_function
-import csv
-import requests
-from xml.dom.minidom import parse
-import os.path
-from os import walk
-import sys
-import time
 from datetime import date
 from functools import wraps
+from xml.dom.minidom import parse
+
+import csv
 import errno
 import os
 import signal
+import time
+import sys
+import requests
 
-projects = []
-f = []
 RESULT_PATH = "./results/"
 RESULT_FILE = './history/zanata/output_file-%s-%s-%s.csv' % (
-                date.today().year, date.today().month, date.today().day)
+    date.today().year, date.today().month, date.today().day)
 PROJECTS_FILE = "./results/projets.xml"
 
 class TimeoutError(Exception):
     """ source : http://stackoverflow.com/questions/2281850 """
-    pass
 
 def timeout(seconds=10, error_message=os.strerror(errno.ETIME)):
     """ source : http://stackoverflow.com/questions/2281850 """
@@ -65,20 +60,20 @@ def get_projects_list():
     """ Get the full list of projects from fedora.zanata
         Save the result in a file
     """
-    api_url_projects  = "https://fedora.zanata.org/rest/projects"
+    api_url_projects = "https://fedora.zanata.org/rest/projects"
     file_path = PROJECTS_FILE
     print("Donwload of the projects file")
 
-    if os.path.isfile(file_path) != True:
+    if os.path.isfile(file_path) is False:
         try:
             request_output = requests.get(api_url_projects)
             if request_output.status_code == 200:
                 output_file = open(file_path, 'w')
                 output_file.write(request_output.text)
                 output_file.close()
-        except:
-            e = sys.exc_info()
-            print("Error %s : %s" % (e[0], e[1]))
+        except requests.exceptions.HTTPError:
+            error = sys.exc_info()
+            print("Error %s : %s" % (error[0], error[1]))
     else:
         print("The file '%s' already exist !" % file_path)
 
@@ -86,7 +81,6 @@ def download_project_iteration(project_id):
     """ download the project description and return iteration list
     """
     iterations = []
-    read_from_request = False
 
     file_path = "%sproject_iterations_%s.xml" % (RESULT_PATH, project_id)
     api_url_project = "https://fedora.zanata.org/rest/projects/p/%s" % project_id
@@ -111,7 +105,7 @@ def get_projects_iterations():
     """ For each project in projects file file
         Get projects iterations/versions from fedora.zanata
         Then append the list to the global result list """
-    global projects
+    projects = []
 
     dom = parse(PROJECTS_FILE)
     current_line = 0
@@ -126,10 +120,11 @@ def get_projects_iterations():
             iterations = download_project_iteration(project_id)
             [projects.append((project_id, iteration)) for iteration in iterations]
 
-def get_projects_statistics():
+    return projects
+
+def get_projects_statistics(projects):
     """ for each existing projets, download statistic file
     """
-    global projets
     current_line = 0
     total_line = len(projects[1:])
 
@@ -145,21 +140,21 @@ def get_projects_statistics():
         try:
             get_via_resquet_and_write(request, file_path)
         except TimeoutError:
-            e = sys.exc_info()
-            print("Timeout error %s : %s with project/iteration %s" % (e[0], e[1], file_path))
+            err = sys.exc_info()
+            print("Timeout error %s : %s with project/iteration %s" % (err[0], err[1], file_path))
 
 @timeout(30)
 def get_via_resquet_and_write(request, file_name):
     """ get a requet and save it to file if it worked
     """
-    if os.path.isfile(file_name) != True:
+    if os.path.isfile(file_name) is False:
         try:
             request_output = requests.get(request)
-            if(request_output.status_code == 200):
+            if request_output.status_code == 200:
                 output_file = open(file_name, 'w')
                 output_file.write(request_output.text)
                 output_file.close()
-                while output_file.closed == False:
+                while output_file.closed is False:
                     time.sleep(0.1)
             return request_output.status_code
         except requests.exceptions.ConnectionError:
@@ -174,7 +169,7 @@ def get_global_statistics():
     with open(RESULT_FILE, 'w', newline='') as csvfile:
         spamwriter = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
         first = 0
-        for (dirpath, dirnames, filenames) in walk(RESULT_PATH):
+        for (dirpath, dirnames, filenames) in os.walk(RESULT_PATH):
             for filename in filenames:
                 if filename[0:12] == "project_stat":
                     dom = parse(RESULT_PATH+filename)
@@ -193,16 +188,24 @@ def get_global_statistics():
                         ici.append(iteration_slug)
                         spamwriter.writerow(ici)
 
-print("0. Get projects list")
-get_projects_list()
+def main():
+    """ call each functions
+    """
+    projects = []
 
-print("1. Get projects iterations")
-get_projects_iterations()
+    print("0. Get projects list")
+    get_projects_list()
 
-print("2. Get each statistics")
-get_projects_statistics()
+    print("1. Get projects iterations")
+    projects = get_projects_iterations()
 
-print("3. Write statistics in csvfile")
-get_global_statistics()
+    print("2. Get each statistics")
+    get_projects_statistics(projects)
 
-print("4. Done !")
+    print("3. Write statistics in csvfile")
+    get_global_statistics()
+
+    print("4. Done !")
+
+if __name__ == '__main__':
+    main()
