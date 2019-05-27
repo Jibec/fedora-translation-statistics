@@ -34,7 +34,7 @@ import signal
 projects = []
 f = []
 RESULT_PATH = "./results/"
-RESULT_FILE = './output_file-%s-%s-%s.csv' % (
+RESULT_FILE = './history/zanata/output_file-%s-%s-%s.csv' % (
                 date.today().year, date.today().month, date.today().day)
 PROJECTS_FILE = "./results/projets.xml"
 

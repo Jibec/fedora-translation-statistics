@@ -18,3 +18,9 @@ mkdir ./results
 # launch the Zanata script
 
 python3 ./read_zanata_stats.py
+
+# save data in git
+
+git add history/
+
+git commit -m "add zanata $(date +%F)"
