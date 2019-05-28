@@ -29,7 +29,10 @@ from datetime import date
 import argparse
 import csv
 import xml.etree.ElementTree as ET
+import gzip
+import os
 import requests
+import shutil
 import statistics
 
 NS_KEY = "http://www.w3.org/XML/1998/namespace"
@@ -139,8 +142,9 @@ def get_language_list(root):
         languages.append(lang)
     languages = list(set(languages))
     languages = languages.copy()
+    languages.sort(key=str.lower)
 
-    return languages.sort()
+    return languages
 
 
 def compute_global_stats(root, languages):
@@ -209,18 +213,50 @@ def write_in_file(file_mask, content):
         for row in content:
             result_file_csv.writerow(row)
 
+
+def download_file(url, filename):
+    """ download file
+    """
+    # NOTE the stream=True parameter below
+    with requests.get(url, stream=True) as r:
+        r.raise_for_status()
+        with open(filename, 'wb') as f:
+            for chunk in r.iter_content(chunk_size=8192):
+                if chunk:  # filter out keep-alive new chunks
+                    f.write(chunk)
+
+
 def get_xml_file(version):
-    tree = ET.parse("fedora-{v}.xml".format(v=version))
+    """ open xml file, download it if missing
+    """
+    appdata_file = "fedora-{v}.xml".format(v=version)
+
+    if os.path.isfile(appdata_file) is not True:
+        url = "https://dl.fedoraproject.org/pub/alt/screenshots/f{v}/fedora-{v}.xml.gz".format(
+            v=version)
+        gzip_file = "fedora-{v}.xml.xz".format(v=version)
+
+        download_file(url, gzip_file)
+
+        with gzip.open(gzip_file, 'rb') as f_in:
+            with open(appdata_file, 'wb') as f_out:
+                shutil.copyfileobj(f_in, f_out)
+
+        os.remove(gzip_file)
+
+    tree = ET.parse(appdata_file)
+
     return tree.getroot()
+
 
 def main():
     """ call each functions
     """
 
     parser = argparse.ArgumentParser(
-    description="Computes language stats for each appdata file")
+        description="Computes language stats for each appdata file")
     parser.add_argument("--version", required=True, type=int,
-                        choices=range(20,31),
+                        choices=range(20, 31),
                         help="Only work on one SRPM, if selected")
 
     args = parser.parse_args()
