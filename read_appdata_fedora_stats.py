@@ -18,13 +18,19 @@
 # @author Jean-Baptiste Holcroft <jb.holcroft@gmail.com>
 # TODO : add keywords statistics
 
+"""
+This scripts extract translation statistics from app data files consolidated in
+https://alt.fedoraproject.org/pub/alt/screenshots/fxx/ (where xx is the Fedora version)
+Usage: ./read_appdata_stats.py
+"""
+
 import xml.etree.ElementTree as ET
 import csv
 from datetime import date
 
 import statistics
 
-STATISTIC_FILE = 'fedora-23.xml'
+STATISTIC_FILE = 'fedora-30.xml'
 RESULT_FILE = './AppData-Global-detailed-%s-%s-%s.csv' \
     % (date.today().year, date.today().month, date.today().day)
 
@@ -32,60 +38,8 @@ NS_KEY = "http://www.w3.org/XML/1998/namespace"
 NS_MAP = {"xml": NS_KEY}
 
 TRANSLATABLE_FIELDS = ["name", "summary", "description"]
-languages = []
-projects_statistics = {}
 
-# open global xml file
-tree = ET.parse(STATISTIC_FILE)
-root = tree.getroot()
-
-#
-# GLOBAL STATISTICS
-#
-print("Make global statistics")
-# initiate list of languages
-for i in root.findall(".//*[@xml:lang]", namespaces=NS_MAP):
-    lang = i.get("{%s}lang" % NS_KEY)
-    languages.append(lang)
-languages = list(set(languages))
-languages = languages.copy()
-
-output_for_csv = []
-header_line = ["project", "type", "url"] + languages
-output_for_csv.append(header_line)
-
-for component in root.findall("component"):
-    package_name = component.find("pkgname").text
-    package_type = component.get("type")
-    package_homepage = ""
-    language_statistic = [0] * len(languages)
-
-    # get project url
-    for url in component.findall("url"):
-        if url.get("type") == "homepage":
-            package_homepage = url.text
-
-    # get project statistics
-    for translatable_field in TRANSLATABLE_FIELDS:
-        for field in component.findall(translatable_field):
-            lang = field.get("{%s}lang" % NS_KEY)
-            if lang != None:
-                language_statistic[languages.index(
-                    lang)] += 1 / len(TRANSLATABLE_FIELDS)
-
-    package_info = [package_name, package_type, package_homepage]
-    csv_line = package_info + language_statistic
-
-    output_for_csv.append(csv_line)
-
-with open(RESULT_FILE, 'w', newline='') as csvfile:
-    result_file_csv = csv.writer(
-        csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
-    for row in output_for_csv:
-        result_file_csv.writerow(row)
-
-
-def one_language_stats(lang):
+def one_language_stats(lang, root):
     #
     # search for one language
     #
@@ -183,24 +137,87 @@ def make_lang_stats(stats):
     return results
 
 
-langage_statistics = []
-header = ["lang", "field", "filter", "filter_value",
-          "mean", "pstdev", "number of packages"]
-langage_statistics.append(header)
+def main():
+    """ call each functions
+    """
+    languages = []
+    projects_statistics = {}
 
-for lang in languages:
-    print("Make statistics for language %s (%s/%s)" %
-          (lang, languages.index(lang), len(languages)))
-    lang_results = one_language_stats(lang)
-    results = make_lang_stats(lang_results)
+    # open global xml file
+    tree = ET.parse(STATISTIC_FILE)
+    root = tree.getroot()
 
-    for result in results:
-        langage_statistics.append([lang]+result)
+    #
+    # GLOBAL STATISTICS
+    #
+    print("Make global statistics")
+    # initiate list of languages
+    for i in root.findall(".//*[@xml:lang]", namespaces=NS_MAP):
+        lang = i.get("{%s}lang" % NS_KEY)
+        languages.append(lang)
+    languages = list(set(languages))
+    languages = languages.copy()
 
-result_file_langage = './AppData_Global_Statistics_%s-%s-%s.csv' \
-    % (date.today().year, date.today().month, date.today().day)
-with open(result_file_langage, 'w', newline='') as csvfile:
-    result_file_csv = csv.writer(
-        csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
-    for row in langage_statistics:
-        result_file_csv.writerow(row)
+    output_for_csv = []
+    header_line = ["project", "type", "url"] + languages
+    output_for_csv.append(header_line)
+
+    for component in root.findall("component"):
+        package_name = component.find("pkgname").text
+        package_type = component.get("type")
+        package_homepage = ""
+        language_statistic = [0] * len(languages)
+
+        # get project url
+        for url in component.findall("url"):
+            if url.get("type") == "homepage":
+                package_homepage = url.text
+
+        # get project statistics
+        for translatable_field in TRANSLATABLE_FIELDS:
+            for field in component.findall(translatable_field):
+                lang = field.get("{%s}lang" % NS_KEY)
+                if lang != None:
+                    language_statistic[languages.index(
+                        lang)] += 1 / len(TRANSLATABLE_FIELDS)
+
+        package_info = [package_name, package_type, package_homepage]
+        csv_line = package_info + language_statistic
+
+        output_for_csv.append(csv_line)
+
+    with open(RESULT_FILE, 'w', newline='') as csvfile:
+        result_file_csv = csv.writer(
+            csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        for row in output_for_csv:
+            result_file_csv.writerow(row)
+
+    print("3.")
+
+    langage_statistics = []
+    header = ["lang", "field", "filter", "filter_value",
+              "mean", "pstdev", "number of packages"]
+    langage_statistics.append(header)
+
+    for lang in languages:
+        print("Make statistics for language %s (%s/%s)" %
+              (lang, languages.index(lang), len(languages)))
+        lang_results = one_language_stats(lang, root)
+        results = make_lang_stats(lang_results)
+
+        for result in results:
+            langage_statistics.append([lang]+result)
+
+    result_file_langage = './AppData_Global_Statistics_%s-%s-%s.csv' \
+        % (date.today().year, date.today().month, date.today().day)
+    with open(result_file_langage, 'w', newline='') as csvfile:
+        result_file_csv = csv.writer(
+            csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        for row in langage_statistics:
+            result_file_csv.writerow(row)
+
+    print("4. Done !")
+
+
+if __name__ == '__main__':
+    main()
