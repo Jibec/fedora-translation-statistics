@@ -15,7 +15,7 @@
 # License along with this program.  If not, see
 # <http://www.gnu.org/licenses/gpl-3.0.html>.
 #
-# @author Jean-Baptiste Holcroft <jb.holcroft@gmail.com>
+# @author Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>
 
 """
 This scripts extract translation statistics from Zanata using the API

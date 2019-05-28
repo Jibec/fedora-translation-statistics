@@ -15,7 +15,7 @@
 # License along with this program.  If not, see
 # <http://www.gnu.org/licenses/gpl-3.0.html>.
 #
-# @author Jean-Baptiste Holcroft <jb.holcroft@gmail.com>
+# @author Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>
 # TODO : add keywords statistics
 
 """
@@ -31,22 +31,21 @@ from datetime import date
 import statistics
 
 STATISTIC_FILE = 'fedora-30.xml'
-RESULT_FILE = './AppData-Global-detailed-%s-%s-%s.csv' \
-    % (date.today().year, date.today().month, date.today().day)
 
 NS_KEY = "http://www.w3.org/XML/1998/namespace"
 NS_MAP = {"xml": NS_KEY}
 
 TRANSLATABLE_FIELDS = ["name", "summary", "description"]
 
+
 def one_language_stats(lang, root):
-    #
-    # search for one language
-    #
-    output_for_csv_langage_detailed = []
+    """
+    search for one language
+    """
+    output = []
     header_line = ["project", "type", "url"] + \
         TRANSLATABLE_FIELDS + ["package stats"]
-    output_for_csv_langage_detailed.append(header_line)
+    output.append(header_line)
 
     for component in root.findall("component"):
         package_name = component.find("pkgname").text
@@ -70,24 +69,16 @@ def one_language_stats(lang, root):
         for field in component.findall(".//lang"):
             if field.text == lang:
                 percent = field.get("percentage")
-                if percent == None:
+                if percent is None:
                     percent = 1
                 embedded_statistic[0] = int(percent)/100
 
-        package_info = [package_name, package_type, package_homepage]
-        csv_line = package_info + language_statistic + embedded_statistic
-        output_for_csv_langage_detailed.append(csv_line)
+        output.append(
+            [package_name, package_type, package_homepage] + language_statistic + embedded_statistic)
 
-    result_file_langage = './AppData_Detailed_%s-%s-%s-%s.csv' \
-        % (lang, date.today().year, date.today().month, date.today().day)
+    write_in_file("AppData_Detailed_"+lang+"-%s-%s-%s.csv", output)
 
-    with open(result_file_langage, 'w', newline='') as csvfile:
-        result_file_csv = csv.writer(
-            csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
-        for row in output_for_csv_langage_detailed:
-            result_file_csv.writerow(row)
-
-    return output_for_csv_langage_detailed
+    return output
 
 
 def to_number(val):
@@ -96,15 +87,15 @@ def to_number(val):
     """
     if val == "yes":
         return 1
-    else:
-        return int(val)
+
+    return int(val)
 
 
 def give_stat(header, field, results_list, filter_field=None, filter_value=None):
     """
     Return list
     """
-    if filter_field != None and filter_value != None:
+    if filter_field is not None and filter_value is not None:
         results = [to_number(stat[header.index(field)])
                    for stat in results_list
                    if stat[header.index(filter_field)] == filter_value]
@@ -137,20 +128,11 @@ def make_lang_stats(stats):
     return results
 
 
-def main():
-    """ call each functions
+def get_language_list(root):
+    """ return every existing languages in xml file
     """
     languages = []
-    projects_statistics = {}
 
-    # open global xml file
-    tree = ET.parse(STATISTIC_FILE)
-    root = tree.getroot()
-
-    #
-    # GLOBAL STATISTICS
-    #
-    print("Make global statistics")
     # initiate list of languages
     for i in root.findall(".//*[@xml:lang]", namespaces=NS_MAP):
         lang = i.get("{%s}lang" % NS_KEY)
@@ -158,6 +140,11 @@ def main():
     languages = list(set(languages))
     languages = languages.copy()
 
+    return languages
+
+def compute_global_stats(root, languages):
+    """ produce a csv file with all languages
+    """
     output_for_csv = []
     header_line = ["project", "type", "url"] + languages
     output_for_csv.append(header_line)
@@ -177,7 +164,7 @@ def main():
         for translatable_field in TRANSLATABLE_FIELDS:
             for field in component.findall(translatable_field):
                 lang = field.get("{%s}lang" % NS_KEY)
-                if lang != None:
+                if lang is not None:
                     language_statistic[languages.index(
                         lang)] += 1 / len(TRANSLATABLE_FIELDS)
 
@@ -186,35 +173,55 @@ def main():
 
         output_for_csv.append(csv_line)
 
-    with open(RESULT_FILE, 'w', newline='') as csvfile:
-        result_file_csv = csv.writer(
-            csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
-        for row in output_for_csv:
-            result_file_csv.writerow(row)
+    write_in_file("AppData-Global-detailed-%s-%s-%s.csv", output_for_csv)
 
-    print("3.")
-
+def compute_per_language_stats(root, languages):
+    """ compute per language stats and consolidate results
+    """
     langage_statistics = []
     header = ["lang", "field", "filter", "filter_value",
               "mean", "pstdev", "number of packages"]
     langage_statistics.append(header)
 
     for lang in languages:
-        print("Make statistics for language %s (%s/%s)" %
-              (lang, languages.index(lang), len(languages)))
+        print("  Make statistics for language %s (%s/%s)" %
+              (lang, languages.index(lang)+1, len(languages)))
         lang_results = one_language_stats(lang, root)
         results = make_lang_stats(lang_results)
 
         for result in results:
             langage_statistics.append([lang]+result)
 
-    result_file_langage = './AppData_Global_Statistics_%s-%s-%s.csv' \
-        % (date.today().year, date.today().month, date.today().day)
-    with open(result_file_langage, 'w', newline='') as csvfile:
+    write_in_file("AppData_Global_Statistics_%s-%s-%s.csv", langage_statistics)
+
+def write_in_file(file_mask, content):
+    """ store results in csv file
+    """
+    file_name = file_mask % (date.today().year, date.today().month, date.today().day)
+    with open(file_name, 'w', newline='') as csvfile:
         result_file_csv = csv.writer(
             csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
-        for row in langage_statistics:
+        for row in content:
             result_file_csv.writerow(row)
+
+def main():
+    """ call each functions
+    """
+
+    print("0. Open xml file")
+
+    # open global xml file
+    tree = ET.parse(STATISTIC_FILE)
+    root = tree.getroot()
+
+    print("1. Deduct the list of languages")
+    languages = get_language_list(root)
+
+    print("2. compute_global_stats")
+    compute_global_stats(root, languages)
+
+    print("3. compute_per_language_stats")
+    compute_per_language_stats(root, languages)
 
     print("4. Done !")
 
