@@ -24,10 +24,10 @@ https://alt.fedoraproject.org/pub/alt/screenshots/fxx/ (where xx is the Fedora v
 Usage: ./read_appdata_stats.py
 """
 
-import xml.etree.ElementTree as ET
-import csv
 from datetime import date
 
+import csv
+import xml.etree.ElementTree as ET
 import statistics
 
 STATISTIC_FILE = 'fedora-30.xml'
