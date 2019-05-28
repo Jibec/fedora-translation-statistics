@@ -17,6 +17,11 @@
 #
 # @author Jean-Baptiste Holcroft <jb.holcroft@gmail.com>
 
+"""
+This scripts extract translation statistics from Zanata using the API
+Usage: ./read_zanata_stats.py
+"""
+
 from datetime import date
 from functools import wraps
 from xml.dom.minidom import parse
@@ -117,8 +122,8 @@ def get_projects_iterations():
         project_status = stat.getElementsByTagName("status")[0].firstChild.data
         print("   %s/%s - %s" % (current_line, total_line, project_id))
         if project_status == "ACTIVE":
-            iterations = download_project_iteration(project_id)
-            [projects.append((project_id, iteration)) for iteration in iterations]
+            for iteration in download_project_iteration(project_id):
+                projects.append((project_id, iteration))
 
     return projects
 
@@ -169,7 +174,7 @@ def get_global_statistics():
     with open(RESULT_FILE, 'w', newline='') as csvfile:
         spamwriter = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
         first = 0
-        for (dirpath, dirnames, filenames) in os.walk(RESULT_PATH):
+        for (_, _, filenames) in os.walk(RESULT_PATH):
             for filename in filenames:
                 if filename[0:12] == "project_stat":
                     dom = parse(RESULT_PATH+filename)
