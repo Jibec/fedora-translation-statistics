@@ -70,7 +70,8 @@ for component in root.findall("component"):
         for field in component.findall(translatable_field):
             lang = field.get("{%s}lang" % NS_KEY)
             if lang != None:
-                language_statistic[languages.index(lang)] += 1 / len(TRANSLATABLE_FIELDS)
+                language_statistic[languages.index(
+                    lang)] += 1 / len(TRANSLATABLE_FIELDS)
 
     package_info = [package_name, package_type, package_homepage]
     csv_line = package_info + language_statistic
@@ -78,16 +79,19 @@ for component in root.findall("component"):
     output_for_csv.append(csv_line)
 
 with open(RESULT_FILE, 'w', newline='') as csvfile:
-    result_file_csv = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+    result_file_csv = csv.writer(
+        csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
     for row in output_for_csv:
         result_file_csv.writerow(row)
+
 
 def one_language_stats(lang):
     #
     # search for one language
     #
     output_for_csv_langage_detailed = []
-    header_line = ["project", "type", "url"] + TRANSLATABLE_FIELDS + ["package stats"]
+    header_line = ["project", "type", "url"] + \
+        TRANSLATABLE_FIELDS + ["package stats"]
     output_for_csv_langage_detailed.append(header_line)
 
     for component in root.findall("component"):
@@ -106,7 +110,8 @@ def one_language_stats(lang):
             for field in component.findall(translatable_field):
                 lang_field = field.get("{%s}lang" % NS_KEY)
                 if lang_field == lang:
-                    language_statistic[TRANSLATABLE_FIELDS.index(translatable_field)] = "yes"
+                    language_statistic[TRANSLATABLE_FIELDS.index(
+                        translatable_field)] = "yes"
 
         for field in component.findall(".//lang"):
             if field.text == lang:
@@ -123,11 +128,13 @@ def one_language_stats(lang):
         % (lang, date.today().year, date.today().month, date.today().day)
 
     with open(result_file_langage, 'w', newline='') as csvfile:
-        result_file_csv = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        result_file_csv = csv.writer(
+            csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
         for row in output_for_csv_langage_detailed:
             result_file_csv.writerow(row)
 
     return output_for_csv_langage_detailed
+
 
 def to_number(val):
     """
@@ -138,22 +145,24 @@ def to_number(val):
     else:
         return int(val)
 
-def give_stat(header, field, results_list, filter_field = None, filter_value = None):
+
+def give_stat(header, field, results_list, filter_field=None, filter_value=None):
     """
     Return list
     """
     if filter_field != None and filter_value != None:
-        results = [to_number(stat[header.index(field)]) \
-                      for stat in results_list \
-                      if stat[header.index(filter_field)] == filter_value]
+        results = [to_number(stat[header.index(field)])
+                   for stat in results_list
+                   if stat[header.index(filter_field)] == filter_value]
     else:
-        results = [to_number(stat[header.index(field)]) \
-                      for stat in results_list]
+        results = [to_number(stat[header.index(field)])
+                   for stat in results_list]
 
-    mean = round(statistics.mean(results)*100,2)
-    pstdev = round(statistics.pstdev(results)*100,2)
+    mean = round(statistics.mean(results)*100, 2)
+    pstdev = round(statistics.pstdev(results)*100, 2)
 
-    return [field,filter_field,filter_value, mean, pstdev, len(results)]
+    return [field, filter_field, filter_value, mean, pstdev, len(results)]
+
 
 def make_lang_stats(stats):
     """
@@ -168,16 +177,20 @@ def make_lang_stats(stats):
     # Desktop stats
 
     for field in ["name", "summary", "description", "package stats"]:
-        results.append(give_stat(stats[0], field, stats[1:], "type","desktop"))
+        results.append(
+            give_stat(stats[0], field, stats[1:], "type", "desktop"))
 
     return results
 
+
 langage_statistics = []
-header = ["lang","field","filter","filter_value", "mean", "pstdev", "number of packages"]
+header = ["lang", "field", "filter", "filter_value",
+          "mean", "pstdev", "number of packages"]
 langage_statistics.append(header)
 
 for lang in languages:
-    print("Make statistics for language %s (%s/%s)" % (lang, languages.index(lang), len(languages)))
+    print("Make statistics for language %s (%s/%s)" %
+          (lang, languages.index(lang), len(languages)))
     lang_results = one_language_stats(lang)
     results = make_lang_stats(lang_results)
 
@@ -187,6 +200,7 @@ for lang in languages:
 result_file_langage = './AppData_Global_Statistics_%s-%s-%s.csv' \
     % (date.today().year, date.today().month, date.today().day)
 with open(result_file_langage, 'w', newline='') as csvfile:
-    result_file_csv = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+    result_file_csv = csv.writer(
+        csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
     for row in langage_statistics:
         result_file_csv.writerow(row)
