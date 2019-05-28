@@ -26,11 +26,11 @@ Usage: ./read_appdata_stats.py
 
 from datetime import date
 
+import argparse
 import csv
 import xml.etree.ElementTree as ET
+import requests
 import statistics
-
-STATISTIC_FILE = 'fedora-30.xml'
 
 NS_KEY = "http://www.w3.org/XML/1998/namespace"
 NS_MAP = {"xml": NS_KEY}
@@ -140,7 +140,7 @@ def get_language_list(root):
     languages = list(set(languages))
     languages = languages.copy()
 
-    return languages
+    return languages.sort()
 
 
 def compute_global_stats(root, languages):
@@ -209,16 +209,24 @@ def write_in_file(file_mask, content):
         for row in content:
             result_file_csv.writerow(row)
 
+def get_xml_file(version):
+    tree = ET.parse("fedora-{v}.xml".format(v=version))
+    return tree.getroot()
 
 def main():
     """ call each functions
     """
 
-    print("0. Open xml file")
+    parser = argparse.ArgumentParser(
+    description="Computes language stats for each appdata file")
+    parser.add_argument("--version", required=True, type=int,
+                        choices=range(20,31),
+                        help="Only work on one SRPM, if selected")
 
-    # open global xml file
-    tree = ET.parse(STATISTIC_FILE)
-    root = tree.getroot()
+    args = parser.parse_args()
+
+    print("0. Open xml file")
+    root = get_xml_file(args.version)
 
     print("1. Deduct the list of languages")
     languages = get_language_list(root)
