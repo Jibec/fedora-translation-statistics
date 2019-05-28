@@ -24,8 +24,6 @@ https://alt.fedoraproject.org/pub/alt/screenshots/fxx/ (where xx is the Fedora v
 Usage: ./read_appdata_stats.py
 """
 
-from datetime import date
-
 import argparse
 import csv
 import xml.etree.ElementTree as ET
@@ -41,7 +39,7 @@ NS_MAP = {"xml": NS_KEY}
 TRANSLATABLE_FIELDS = ["name", "summary", "description"]
 
 
-def one_language_stats(lang, root):
+def one_language_stats(root, lang, version):
     """
     search for one language
     """
@@ -79,7 +77,7 @@ def one_language_stats(lang, root):
         output.append(
             [package_name, package_type, package_homepage] + language_statistic + embedded_statistic)
 
-    write_in_file("AppData_Detailed_"+lang+"-%s-%s-%s.csv", output)
+    write_in_file("AppData_Detailed_"+lang+".csv", version, output)
 
     return output
 
@@ -147,7 +145,7 @@ def get_language_list(root):
     return languages
 
 
-def compute_global_stats(root, languages):
+def compute_global_stats(root, languages, version):
     """ produce a csv file with all languages
     """
     output_for_csv = []
@@ -178,10 +176,10 @@ def compute_global_stats(root, languages):
 
         output_for_csv.append(csv_line)
 
-    write_in_file("AppData-Global-detailed-%s-%s-%s.csv", output_for_csv)
+    write_in_file("AppData-Global-detailed.csv",version, output_for_csv)
 
 
-def compute_per_language_stats(root, languages):
+def compute_per_language_stats(root, languages, version):
     """ compute per language stats and consolidate results
     """
     langage_statistics = []
@@ -190,22 +188,19 @@ def compute_per_language_stats(root, languages):
     langage_statistics.append(header)
 
     for lang in languages:
-        print("  Make statistics for language %s (%s/%s)" %
-              (lang, languages.index(lang)+1, len(languages)))
-        lang_results = one_language_stats(lang, root)
+        lang_results = one_language_stats(root, lang, version)
         results = make_lang_stats(lang_results)
 
         for result in results:
             langage_statistics.append([lang]+result)
 
-    write_in_file("AppData_Global_Statistics_%s-%s-%s.csv", langage_statistics)
+    write_in_file("AppData_Global_Statistics.csv", version, langage_statistics)
 
 
-def write_in_file(file_mask, content):
+def write_in_file(file_mask, version, content):
     """ store results in csv file
     """
-    file_name = "./history/appdata/f30_" + \
-        file_mask % (date.today().year, date.today().month, date.today().day)
+    file_name = "./history/appdata/f{v}_".format(v=version) + file_mask
 
     with open(file_name, 'w', newline='') as csvfile:
         result_file_csv = csv.writer(
@@ -261,17 +256,17 @@ def main():
 
     args = parser.parse_args()
 
-    print("0. Open xml file")
+    print("0. Open xml file for Fedora {v}".format(v=args.version))
     root = get_xml_file(args.version)
 
     print("1. Deduct the list of languages")
     languages = get_language_list(root)
 
     print("2. compute_global_stats")
-    compute_global_stats(root, languages)
+    compute_global_stats(root, languages, args.version)
 
     print("3. compute_per_language_stats")
-    compute_per_language_stats(root, languages)
+    compute_per_language_stats(root, languages, args.version)
 
     print("4. Done !")
 
