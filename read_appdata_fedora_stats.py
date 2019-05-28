@@ -142,6 +142,7 @@ def get_language_list(root):
 
     return languages
 
+
 def compute_global_stats(root, languages):
     """ produce a csv file with all languages
     """
@@ -175,6 +176,7 @@ def compute_global_stats(root, languages):
 
     write_in_file("AppData-Global-detailed-%s-%s-%s.csv", output_for_csv)
 
+
 def compute_per_language_stats(root, languages):
     """ compute per language stats and consolidate results
     """
@@ -194,15 +196,19 @@ def compute_per_language_stats(root, languages):
 
     write_in_file("AppData_Global_Statistics_%s-%s-%s.csv", langage_statistics)
 
+
 def write_in_file(file_mask, content):
     """ store results in csv file
     """
-    file_name = file_mask % (date.today().year, date.today().month, date.today().day)
+    file_name = "./history/appdata/f30_" + \
+        file_mask % (date.today().year, date.today().month, date.today().day)
+
     with open(file_name, 'w', newline='') as csvfile:
         result_file_csv = csv.writer(
             csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
         for row in content:
             result_file_csv.writerow(row)
+
 
 def main():
     """ call each functions
