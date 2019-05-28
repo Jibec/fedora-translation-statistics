@@ -39,8 +39,10 @@ RESULT_FILE = './history/zanata/output_file-%s-%s-%s.csv' % (
     date.today().year, date.today().month, date.today().day)
 PROJECTS_FILE = "./results/projets.xml"
 
+
 class TimeoutError(Exception):
     """ source : http://stackoverflow.com/questions/2281850 """
+
 
 def timeout(seconds=10, error_message=os.strerror(errno.ETIME)):
     """ source : http://stackoverflow.com/questions/2281850 """
@@ -60,6 +62,7 @@ def timeout(seconds=10, error_message=os.strerror(errno.ETIME)):
         return wraps(func)(wrapper)
 
     return decorator
+
 
 def get_projects_list():
     """ Get the full list of projects from fedora.zanata
@@ -82,6 +85,7 @@ def get_projects_list():
     else:
         print("The file '%s' already exist !" % file_path)
 
+
 def download_project_iteration(project_id):
     """ download the project description and return iteration list
     """
@@ -94,17 +98,20 @@ def download_project_iteration(project_id):
             return iterations
     except TimeoutError:
         error = sys.exc_info()
-        print("Timeout error %s : %s with project/iteration %s" % (error[0], error[1], file_path))
+        print("Timeout error %s : %s with project/iteration %s" %
+              (error[0], error[1], file_path))
         return iterations
 
     dom = parse(file_path)
     for stat in dom.getElementsByTagName("ns2:project-iteration"):
         iteration_id = stat.getAttributeNode('id').nodeValue
-        iteration_status = stat.getElementsByTagName("status")[0].firstChild.data
+        iteration_status = stat.getElementsByTagName("status")[
+            0].firstChild.data
         if iteration_status == "ACTIVE":
             iterations.append(iteration_id)
 
     return iterations
+
 
 def get_projects_iterations():
     """ For each project in projects file file
@@ -127,6 +134,7 @@ def get_projects_iterations():
 
     return projects
 
+
 def get_projects_statistics(projects):
     """ for each existing projets, download statistic file
     """
@@ -137,16 +145,21 @@ def get_projects_statistics(projects):
         project_slug = project[0]
         iteration_slug = project[1]
 
-        file_path = "%sproject_stat___%s___%s" % (RESULT_PATH, project_slug, iteration_slug)
+        file_path = "%sproject_stat___%s___%s" % (
+            RESULT_PATH, project_slug, iteration_slug)
         current_line += 1
-        print("   %s/%s - %s %s" % (current_line, total_line, project_slug, iteration_slug))
+        print("   %s/%s - %s %s" %
+              (current_line, total_line, project_slug, iteration_slug))
 
-        request = "https://fedora.zanata.org/rest/stats/proj/%s/iter/%s?word=true" % (project_slug, iteration_slug)
+        request = "https://fedora.zanata.org/rest/stats/proj/%s/iter/%s?word=true" % (
+            project_slug, iteration_slug)
         try:
             get_via_resquet_and_write(request, file_path)
         except TimeoutError:
             err = sys.exc_info()
-            print("Timeout error %s : %s with project/iteration %s" % (err[0], err[1], file_path))
+            print("Timeout error %s : %s with project/iteration %s" %
+                  (err[0], err[1], file_path))
+
 
 @timeout(30)
 def get_via_resquet_and_write(request, file_name):
@@ -164,15 +177,18 @@ def get_via_resquet_and_write(request, file_name):
             return request_output.status_code
         except requests.exceptions.ConnectionError:
             error = sys.exc_info()
-            print("Connection error %s : %s with project/iteration %s" % (error[0], error[1], file_name))
+            print("Connection error %s : %s with project/iteration %s" %
+                  (error[0], error[1], file_name))
             return 1
     return 0
+
 
 def get_global_statistics():
     """ for each downloaded xml file, read it and add stats to global csv file
     """
     with open(RESULT_FILE, 'w', newline='') as csvfile:
-        spamwriter = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        spamwriter = csv.writer(csvfile, delimiter=',',
+                                quotechar='|', quoting=csv.QUOTE_MINIMAL)
         first = 0
         for (_, _, filenames) in os.walk(RESULT_PATH):
             for filename in filenames:
@@ -188,10 +204,12 @@ def get_global_statistics():
                             ici.append("version/iteration")
                             spamwriter.writerow(ici)
                             first = 1
-                        ici = [stat.attributes[i].value for i in stat.attributes.keys()]
+                        ici = [
+                            stat.attributes[i].value for i in stat.attributes.keys()]
                         ici.append(project_slug)
                         ici.append(iteration_slug)
                         spamwriter.writerow(ici)
+
 
 def main():
     """ call each functions
@@ -211,6 +229,7 @@ def main():
     get_global_statistics()
 
     print("4. Done !")
+
 
 if __name__ == '__main__':
     main()
