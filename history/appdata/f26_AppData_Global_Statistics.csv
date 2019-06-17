@@ -319,14 +319,6 @@ da,name,type,desktop,13.33,33.98,848
 da,summary,type,desktop,33.14,47.07,848
 da,description,type,desktop,19.1,39.31,848
 da,package stats,type,desktop,10.85,31.1,848
-de,name,,,13.15,33.79,1483
-de,summary,,,34.19,47.43,1483
-de,description,,,16.99,37.56,1483
-de,package stats,,,13.49,34.16,1483
-de,name,type,desktop,14.86,35.57,848
-de,summary,type,desktop,51.06,49.99,848
-de,description,type,desktop,29.6,45.65,848
-de,package stats,type,desktop,21.7,41.22,848
 DE,name,,,0,0.0,1483
 DE,summary,,,0.07,2.6,1483
 DE,description,,,0,0.0,1483
@@ -335,6 +327,14 @@ DE,name,type,desktop,0,0.0,848
 DE,summary,type,desktop,0.12,3.43,848
 DE,description,type,desktop,0,0.0,848
 DE,package stats,type,desktop,0,0.0,848
+de,name,,,13.15,33.79,1483
+de,summary,,,34.19,47.43,1483
+de,description,,,16.99,37.56,1483
+de,package stats,,,13.49,34.16,1483
+de,name,type,desktop,14.86,35.57,848
+de,summary,type,desktop,51.06,49.99,848
+de,description,type,desktop,29.6,45.65,848
+de,package stats,type,desktop,21.7,41.22,848
 de-DE,name,,,0,0.0,1483
 de-DE,summary,,,0.07,2.6,1483
 de-DE,description,,,0,0.0,1483
@@ -1495,14 +1495,6 @@ pt,name,type,desktop,13.56,34.24,848
 pt,summary,type,desktop,37.74,48.47,848
 pt,description,type,desktop,26.65,44.21,848
 pt,package stats,type,desktop,12.97,33.6,848
-pt-br,name,,,0,0.0,1483
-pt-br,summary,,,0.07,2.6,1483
-pt-br,description,,,0.07,2.6,1483
-pt-br,package stats,,,0.07,2.6,1483
-pt-br,name,type,desktop,0,0.0,848
-pt-br,summary,type,desktop,0.12,3.43,848
-pt-br,description,type,desktop,0.12,3.43,848
-pt-br,package stats,type,desktop,0.12,3.43,848
 pt-BR,name,,,0.13,3.67,1483
 pt-BR,summary,,,5.12,22.05,1483
 pt-BR,description,,,5.87,23.5,1483
@@ -1511,6 +1503,14 @@ pt-BR,name,type,desktop,0.12,3.43,848
 pt-BR,summary,type,desktop,8.84,28.39,848
 pt-BR,description,type,desktop,10.26,30.34,848
 pt-BR,package stats,type,desktop,0,0.0,848
+pt-br,name,,,0,0.0,1483
+pt-br,summary,,,0.07,2.6,1483
+pt-br,description,,,0.07,2.6,1483
+pt-br,package stats,,,0.07,2.6,1483
+pt-br,name,type,desktop,0,0.0,848
+pt-br,summary,type,desktop,0.12,3.43,848
+pt-br,description,type,desktop,0.12,3.43,848
+pt-br,package stats,type,desktop,0.12,3.43,848
 pt_BR,name,,,13.42,34.09,1483
 pt_BR,summary,,,26.37,44.06,1483
 pt_BR,description,,,10.52,30.68,1483
