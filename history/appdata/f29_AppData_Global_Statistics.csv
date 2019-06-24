@@ -335,14 +335,6 @@ da,name,type,desktop,12.17,32.69,945
 da,summary,type,desktop,33.65,47.25,945
 da,description,type,desktop,20.21,40.16,945
 da,package stats,type,desktop,15.34,36.04,945
-de,name,,,16.76,37.35,1683
-de,summary,,,40.4,49.07,1683
-de,description,,,19.73,39.79,1683
-de,package stats,,,18.18,38.57,1683
-de,name,type,desktop,14.07,34.78,945
-de,summary,type,desktop,52.49,49.94,945
-de,description,type,desktop,34.39,47.5,945
-de,package stats,type,desktop,29.1,45.42,945
 DE,name,,,0,0.0,1683
 DE,summary,,,0.06,2.44,1683
 DE,description,,,0,0.0,1683
@@ -351,6 +343,14 @@ DE,name,type,desktop,0,0.0,945
 DE,summary,type,desktop,0.11,3.25,945
 DE,description,type,desktop,0,0.0,945
 DE,package stats,type,desktop,0,0.0,945
+de,name,,,16.76,37.35,1683
+de,summary,,,40.4,49.07,1683
+de,description,,,19.73,39.79,1683
+de,package stats,,,18.18,38.57,1683
+de,name,type,desktop,14.07,34.78,945
+de,summary,type,desktop,52.49,49.94,945
+de,description,type,desktop,34.39,47.5,945
+de,package stats,type,desktop,29.1,45.42,945
 de-DE,name,,,0,0.0,1683
 de-DE,summary,,,0.06,2.44,1683
 de-DE,description,,,0,0.0,1683
