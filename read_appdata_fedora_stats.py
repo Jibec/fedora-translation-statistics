@@ -48,7 +48,16 @@ def one_language_stats(root, lang, version):
         TRANSLATABLE_FIELDS + ["package stats"]
     output.append(header_line)
 
-    for component in root.findall("component"):
+    if version < 21:
+        componentItemName = "application"
+    else:
+        componentItemName = "component"
+
+    for component in root.findall(componentItemName):
+        # in f20 file, we have webapp application without name...
+        if component.find("pkgname") is None:
+            continue
+        
         package_name = component.find("pkgname").text
         package_type = component.get("type")
         package_homepage = ""
@@ -152,7 +161,16 @@ def compute_global_stats(root, languages, version):
     header_line = ["project", "type", "url"] + languages
     output_for_csv.append(header_line)
 
-    for component in root.findall("component"):
+    if version < 21:
+        componentItemName = "application"
+    else:
+        componentItemName = "component"
+
+    for component in root.findall(componentItemName):
+        # in f20 file, we have webapp application without name...
+        if component.find("pkgname") is None:
+            continue
+
         package_name = component.find("pkgname").text
         package_type = component.get("type")
         package_homepage = ""
