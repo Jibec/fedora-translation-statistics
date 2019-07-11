@@ -1,0 +1,1961 @@
+lang,field,filter,filter_value,mean,pstdev,number of packages
+af,name,,,5.63,23.04,1013
+af,summary,,,8.0,27.12,1013
+af,description,,,0.1,3.14,1013
+af,package stats,,,0,0.0,1013
+af,name,type,desktop,0,0,0
+af,summary,type,desktop,0,0,0
+af,description,type,desktop,0,0,0
+af,package stats,type,desktop,0,0,0
+af_ZA,name,,,0,0.0,1013
+af_ZA,summary,,,0.1,3.14,1013
+af_ZA,description,,,0,0.0,1013
+af_ZA,package stats,,,0,0.0,1013
+af_ZA,name,type,desktop,0,0,0
+af_ZA,summary,type,desktop,0,0,0
+af_ZA,description,type,desktop,0,0,0
+af_ZA,package stats,type,desktop,0,0,0
+ak,name,,,0,0.0,1013
+ak,summary,,,0.1,3.14,1013
+ak,description,,,0,0.0,1013
+ak,package stats,,,0,0.0,1013
+ak,name,type,desktop,0,0,0
+ak,summary,type,desktop,0,0,0
+ak,description,type,desktop,0,0,0
+ak,package stats,type,desktop,0,0,0
+am,name,,,1.58,12.47,1013
+am,summary,,,0.89,9.38,1013
+am,description,,,0,0.0,1013
+am,package stats,,,0,0.0,1013
+am,name,type,desktop,0,0,0
+am,summary,type,desktop,0,0,0
+am,description,type,desktop,0,0,0
+am,package stats,type,desktop,0,0,0
+an,name,,,1.18,10.82,1013
+an,summary,,,2.27,14.9,1013
+an,description,,,0,0.0,1013
+an,package stats,,,0,0.0,1013
+an,name,type,desktop,0,0,0
+an,summary,type,desktop,0,0,0
+an,description,type,desktop,0,0,0
+an,package stats,type,desktop,0,0,0
+ar,name,,,13.72,34.41,1013
+ar,summary,,,15.1,35.81,1013
+ar,description,,,0.59,7.67,1013
+ar,package stats,,,0,0.0,1013
+ar,name,type,desktop,0,0,0
+ar,summary,type,desktop,0,0,0
+ar,description,type,desktop,0,0,0
+ar,package stats,type,desktop,0,0,0
+ara,name,,,0,0.0,1013
+ara,summary,,,0.1,3.14,1013
+ara,description,,,0,0.0,1013
+ara,package stats,,,0,0.0,1013
+ara,name,type,desktop,0,0,0
+ara,summary,type,desktop,0,0,0
+ara,description,type,desktop,0,0,0
+ara,package stats,type,desktop,0,0,0
+as,name,,,6.81,25.19,1013
+as,summary,,,8.49,27.87,1013
+as,description,,,0.99,9.89,1013
+as,package stats,,,0,0.0,1013
+as,name,type,desktop,0,0,0
+as,summary,type,desktop,0,0,0
+as,description,type,desktop,0,0,0
+as,package stats,type,desktop,0,0,0
+ast,name,,,5.23,22.27,1013
+ast,summary,,,12.93,33.56,1013
+ast,description,,,0,0.0,1013
+ast,package stats,,,0,0.0,1013
+ast,name,type,desktop,0,0,0
+ast,summary,type,desktop,0,0,0
+ast,description,type,desktop,0,0,0
+ast,package stats,type,desktop,0,0,0
+az,name,,,2.27,14.9,1013
+az,summary,,,2.37,15.21,1013
+az,description,,,0,0.0,1013
+az,package stats,,,0,0.0,1013
+az,name,type,desktop,0,0,0
+az,summary,type,desktop,0,0,0
+az,description,type,desktop,0,0,0
+az,package stats,type,desktop,0,0,0
+be,name,,,6.32,24.33,1013
+be,summary,,,10.76,30.99,1013
+be,description,,,0.59,7.67,1013
+be,package stats,,,0,0.0,1013
+be,name,type,desktop,0,0,0
+be,summary,type,desktop,0,0,0
+be,description,type,desktop,0,0,0
+be,package stats,type,desktop,0,0,0
+be@latin,name,,,2.96,16.95,1013
+be@latin,summary,,,3.95,19.47,1013
+be@latin,description,,,0,0.0,1013
+be@latin,package stats,,,0,0.0,1013
+be@latin,name,type,desktop,0,0,0
+be@latin,summary,type,desktop,0,0,0
+be@latin,description,type,desktop,0,0,0
+be@latin,package stats,type,desktop,0,0,0
+bg,name,,,9.97,29.96,1013
+bg,summary,,,19.45,39.58,1013
+bg,description,,,0.1,3.14,1013
+bg,package stats,,,0,0.0,1013
+bg,name,type,desktop,0,0,0
+bg,summary,type,desktop,0,0,0
+bg,description,type,desktop,0,0,0
+bg,package stats,type,desktop,0,0,0
+bg_BG,name,,,0.1,3.14,1013
+bg_BG,summary,,,0.1,3.14,1013
+bg_BG,description,,,0,0.0,1013
+bg_BG,package stats,,,0,0.0,1013
+bg_BG,name,type,desktop,0,0,0
+bg_BG,summary,type,desktop,0,0,0
+bg_BG,description,type,desktop,0,0,0
+bg_BG,package stats,type,desktop,0,0,0
+bho,name,,,0.1,3.14,1013
+bho,summary,,,0.1,3.14,1013
+bho,description,,,0,0.0,1013
+bho,package stats,,,0,0.0,1013
+bho,name,type,desktop,0,0,0
+bho,summary,type,desktop,0,0,0
+bho,description,type,desktop,0,0,0
+bho,package stats,type,desktop,0,0,0
+bn,name,,,7.31,26.02,1013
+bn,summary,,,8.79,28.31,1013
+bn,description,,,0,0.0,1013
+bn,package stats,,,0,0.0,1013
+bn,name,type,desktop,0,0,0
+bn,summary,type,desktop,0,0,0
+bn,description,type,desktop,0,0,0
+bn,package stats,type,desktop,0,0,0
+bn_BD,name,,,0.1,3.14,1013
+bn_BD,summary,,,0.1,3.14,1013
+bn_BD,description,,,0,0.0,1013
+bn_BD,package stats,,,0,0.0,1013
+bn_BD,name,type,desktop,0,0,0
+bn_BD,summary,type,desktop,0,0,0
+bn_BD,description,type,desktop,0,0,0
+bn_BD,package stats,type,desktop,0,0,0
+bn_IN,name,,,5.92,23.61,1013
+bn_IN,summary,,,7.6,26.5,1013
+bn_IN,description,,,0.1,3.14,1013
+bn_IN,package stats,,,0,0.0,1013
+bn_IN,name,type,desktop,0,0,0
+bn_IN,summary,type,desktop,0,0,0
+bn_IN,description,type,desktop,0,0,0
+bn_IN,package stats,type,desktop,0,0,0
+bo,name,,,0.1,3.14,1013
+bo,summary,,,0.1,3.14,1013
+bo,description,,,0,0.0,1013
+bo,package stats,,,0,0.0,1013
+bo,name,type,desktop,0,0,0
+bo,summary,type,desktop,0,0,0
+bo,description,type,desktop,0,0,0
+bo,package stats,type,desktop,0,0,0
+br,name,,,3.06,17.22,1013
+br,summary,,,4.05,19.71,1013
+br,description,,,0,0.0,1013
+br,package stats,,,0,0.0,1013
+br,name,type,desktop,0,0,0
+br,summary,type,desktop,0,0,0
+br,description,type,desktop,0,0,0
+br,package stats,type,desktop,0,0,0
+brx,name,,,0.1,3.14,1013
+brx,summary,,,0.2,4.44,1013
+brx,description,,,0.1,3.14,1013
+brx,package stats,,,0,0.0,1013
+brx,name,type,desktop,0,0,0
+brx,summary,type,desktop,0,0,0
+brx,description,type,desktop,0,0,0
+brx,package stats,type,desktop,0,0,0
+bs,name,,,3.36,18.01,1013
+bs,summary,,,9.38,29.15,1013
+bs,description,,,2.27,14.9,1013
+bs,package stats,,,0,0.0,1013
+bs,name,type,desktop,0,0,0
+bs,summary,type,desktop,0,0,0
+bs,description,type,desktop,0,0,0
+bs,package stats,type,desktop,0,0,0
+ca,name,,,11.06,31.36,1013
+ca,summary,,,27.05,44.42,1013
+ca,description,,,4.24,20.16,1013
+ca,package stats,,,0,0.0,1013
+ca,name,type,desktop,0,0,0
+ca,summary,type,desktop,0,0,0
+ca,description,type,desktop,0,0,0
+ca,package stats,type,desktop,0,0,0
+ca@valencia,name,,,6.22,24.15,1013
+ca@valencia,summary,,,16.98,37.55,1013
+ca@valencia,description,,,0.79,8.85,1013
+ca@valencia,package stats,,,0,0.0,1013
+ca@valencia,name,type,desktop,0,0,0
+ca@valencia,summary,type,desktop,0,0,0
+ca@valencia,description,type,desktop,0,0,0
+ca@valencia,package stats,type,desktop,0,0,0
+ca_ES,name,,,0,0.0,1013
+ca_ES,summary,,,0.1,3.14,1013
+ca_ES,description,,,0,0.0,1013
+ca_ES,package stats,,,0,0.0,1013
+ca_ES,name,type,desktop,0,0,0
+ca_ES,summary,type,desktop,0,0,0
+ca_ES,description,type,desktop,0,0,0
+ca_ES,package stats,type,desktop,0,0,0
+cgg,name,,,0,0.0,1013
+cgg,summary,,,0.1,3.14,1013
+cgg,description,,,0,0.0,1013
+cgg,package stats,,,0,0.0,1013
+cgg,name,type,desktop,0,0,0
+cgg,summary,type,desktop,0,0,0
+cgg,description,type,desktop,0,0,0
+cgg,package stats,type,desktop,0,0,0
+ckb,name,,,0.1,3.14,1013
+ckb,summary,,,0.1,3.14,1013
+ckb,description,,,0,0.0,1013
+ckb,package stats,,,0,0.0,1013
+ckb,name,type,desktop,0,0,0
+ckb,summary,type,desktop,0,0,0
+ckb,description,type,desktop,0,0,0
+ckb,package stats,type,desktop,0,0,0
+cmn,name,,,0.79,8.85,1013
+cmn,summary,,,0.99,9.89,1013
+cmn,description,,,0,0.0,1013
+cmn,package stats,,,0,0.0,1013
+cmn,name,type,desktop,0,0,0
+cmn,summary,type,desktop,0,0,0
+cmn,description,type,desktop,0,0,0
+cmn,package stats,type,desktop,0,0,0
+crh,name,,,1.58,12.47,1013
+crh,summary,,,1.88,13.57,1013
+crh,description,,,0,0.0,1013
+crh,package stats,,,0,0.0,1013
+crh,name,type,desktop,0,0,0
+crh,summary,type,desktop,0,0,0
+crh,description,type,desktop,0,0,0
+crh,package stats,type,desktop,0,0,0
+cs,name,,,12.73,33.34,1013
+cs,summary,,,30.9,46.21,1013
+cs,description,,,3.55,18.51,1013
+cs,package stats,,,0,0.0,1013
+cs,name,type,desktop,0,0,0
+cs,summary,type,desktop,0,0,0
+cs,description,type,desktop,0,0,0
+cs,package stats,type,desktop,0,0,0
+cs_CZ,name,,,0.3,5.43,1013
+cs_CZ,summary,,,0.59,7.67,1013
+cs_CZ,description,,,0,0.0,1013
+cs_CZ,package stats,,,0,0.0,1013
+cs_CZ,name,type,desktop,0,0,0
+cs_CZ,summary,type,desktop,0,0,0
+cs_CZ,description,type,desktop,0,0,0
+cs_CZ,package stats,type,desktop,0,0,0
+csb,name,,,0.3,5.43,1013
+csb,summary,,,1.97,13.91,1013
+csb,description,,,0,0.0,1013
+csb,package stats,,,0,0.0,1013
+csb,name,type,desktop,0,0,0
+csb,summary,type,desktop,0,0,0
+csb,description,type,desktop,0,0,0
+csb,package stats,type,desktop,0,0,0
+cy,name,,,3.85,19.24,1013
+cy,summary,,,5.43,22.66,1013
+cy,description,,,0,0.0,1013
+cy,package stats,,,0,0.0,1013
+cy,name,type,desktop,0,0,0
+cy,summary,type,desktop,0,0,0
+cy,description,type,desktop,0,0,0
+cy,package stats,type,desktop,0,0,0
+da,name,,,11.35,31.72,1013
+da,summary,,,25.77,43.73,1013
+da,description,,,1.97,13.91,1013
+da,package stats,,,0,0.0,1013
+da,name,type,desktop,0,0,0
+da,summary,type,desktop,0,0,0
+da,description,type,desktop,0,0,0
+da,package stats,type,desktop,0,0,0
+da_DK,name,,,0,0.0,1013
+da_DK,summary,,,0.1,3.14,1013
+da_DK,description,,,0,0.0,1013
+da_DK,package stats,,,0,0.0,1013
+da_DK,name,type,desktop,0,0,0
+da_DK,summary,type,desktop,0,0,0
+da_DK,description,type,desktop,0,0,0
+da_DK,package stats,type,desktop,0,0,0
+de,name,,,13.33,33.99,1013
+de,summary,,,39.29,48.84,1013
+de,description,,,4.44,20.6,1013
+de,package stats,,,0,0.0,1013
+de,name,type,desktop,0,0,0
+de,summary,type,desktop,0,0,0
+de,description,type,desktop,0,0,0
+de,package stats,type,desktop,0,0,0
+DE,name,,,0,0.0,1013
+DE,summary,,,0.1,3.14,1013
+DE,description,,,0,0.0,1013
+DE,package stats,,,0,0.0,1013
+DE,name,type,desktop,0,0,0
+DE,summary,type,desktop,0,0,0
+DE,description,type,desktop,0,0,0
+DE,package stats,type,desktop,0,0,0
+de_AT,name,,,0.1,3.14,1013
+de_AT,summary,,,0,0.0,1013
+de_AT,description,,,0,0.0,1013
+de_AT,package stats,,,0,0.0,1013
+de_AT,name,type,desktop,0,0,0
+de_AT,summary,type,desktop,0,0,0
+de_AT,description,type,desktop,0,0,0
+de_AT,package stats,type,desktop,0,0,0
+de_CH,name,,,0.3,5.43,1013
+de_CH,summary,,,0.3,5.43,1013
+de_CH,description,,,0,0.0,1013
+de_CH,package stats,,,0,0.0,1013
+de_CH,name,type,desktop,0,0,0
+de_CH,summary,type,desktop,0,0,0
+de_CH,description,type,desktop,0,0,0
+de_CH,package stats,type,desktop,0,0,0
+de_DE,name,,,0.39,6.27,1013
+de_DE,summary,,,0.49,7.01,1013
+de_DE,description,,,0,0.0,1013
+de_DE,package stats,,,0,0.0,1013
+de_DE,name,type,desktop,0,0,0
+de_DE,summary,type,desktop,0,0,0
+de_DE,description,type,desktop,0,0,0
+de_DE,package stats,type,desktop,0,0,0
+dk,name,,,0.1,3.14,1013
+dk,summary,,,0.1,3.14,1013
+dk,description,,,0,0.0,1013
+dk,package stats,,,0,0.0,1013
+dk,name,type,desktop,0,0,0
+dk,summary,type,desktop,0,0,0
+dk,description,type,desktop,0,0,0
+dk,package stats,type,desktop,0,0,0
+doi,name,,,0.1,3.14,1013
+doi,summary,,,0.2,4.44,1013
+doi,description,,,0,0.0,1013
+doi,package stats,,,0,0.0,1013
+doi,name,type,desktop,0,0,0
+doi,summary,type,desktop,0,0,0
+doi,description,type,desktop,0,0,0
+doi,package stats,type,desktop,0,0,0
+dv,name,,,0.1,3.14,1013
+dv,summary,,,0,0.0,1013
+dv,description,,,0,0.0,1013
+dv,package stats,,,0,0.0,1013
+dv,name,type,desktop,0,0,0
+dv,summary,type,desktop,0,0,0
+dv,description,type,desktop,0,0,0
+dv,package stats,type,desktop,0,0,0
+dz,name,,,6.42,24.5,1013
+dz,summary,,,6.61,24.85,1013
+dz,description,,,0,0.0,1013
+dz,package stats,,,0,0.0,1013
+dz,name,type,desktop,0,0,0
+dz,summary,type,desktop,0,0,0
+dz,description,type,desktop,0,0,0
+dz,package stats,type,desktop,0,0,0
+el,name,,,12.54,33.11,1013
+el,summary,,,24.68,43.11,1013
+el,description,,,2.07,14.25,1013
+el,package stats,,,0,0.0,1013
+el,name,type,desktop,0,0,0
+el,summary,type,desktop,0,0,0
+el,description,type,desktop,0,0,0
+el,package stats,type,desktop,0,0,0
+el_GR,name,,,0,0.0,1013
+el_GR,summary,,,0.2,4.44,1013
+el_GR,description,,,0,0.0,1013
+el_GR,package stats,,,0,0.0,1013
+el_GR,name,type,desktop,0,0,0
+el_GR,summary,type,desktop,0,0,0
+el_GR,description,type,desktop,0,0,0
+el_GR,package stats,type,desktop,0,0,0
+en,name,,,0.2,4.44,1013
+en,summary,,,0.59,7.67,1013
+en,description,,,0,0.0,1013
+en,package stats,,,0,0.0,1013
+en,name,type,desktop,0,0,0
+en,summary,type,desktop,0,0,0
+en,description,type,desktop,0,0,0
+en,package stats,type,desktop,0,0,0
+en@shaw,name,,,4.64,21.03,1013
+en@shaw,summary,,,6.22,24.15,1013
+en@shaw,description,,,0,0.0,1013
+en@shaw,package stats,,,0,0.0,1013
+en@shaw,name,type,desktop,0,0,0
+en@shaw,summary,type,desktop,0,0,0
+en@shaw,description,type,desktop,0,0,0
+en@shaw,package stats,type,desktop,0,0,0
+en_AU,name,,,0.2,4.44,1013
+en_AU,summary,,,0.69,8.28,1013
+en_AU,description,,,0,0.0,1013
+en_AU,package stats,,,0,0.0,1013
+en_AU,name,type,desktop,0,0,0
+en_AU,summary,type,desktop,0,0,0
+en_AU,description,type,desktop,0,0,0
+en_AU,package stats,type,desktop,0,0,0
+en_CA,name,,,0.79,8.85,1013
+en_CA,summary,,,1.48,12.08,1013
+en_CA,description,,,0,0.0,1013
+en_CA,package stats,,,0,0.0,1013
+en_CA,name,type,desktop,0,0,0
+en_CA,summary,type,desktop,0,0,0
+en_CA,description,type,desktop,0,0,0
+en_CA,package stats,type,desktop,0,0,0
+en_GB,name,,,1.58,12.47,1013
+en_GB,summary,,,5.53,22.85,1013
+en_GB,description,,,1.38,11.67,1013
+en_GB,package stats,,,0,0.0,1013
+en_GB,name,type,desktop,0,0,0
+en_GB,summary,type,desktop,0,0,0
+en_GB,description,type,desktop,0,0,0
+en_GB,package stats,type,desktop,0,0,0
+en_US,name,,,0.49,7.01,1013
+en_US,summary,,,0.2,4.44,1013
+en_US,description,,,0,0.0,1013
+en_US,package stats,,,0,0.0,1013
+en_US,name,type,desktop,0,0,0
+en_US,summary,type,desktop,0,0,0
+en_US,description,type,desktop,0,0,0
+en_US,package stats,type,desktop,0,0,0
+en_US@piglatin,name,,,0,0.0,1013
+en_US@piglatin,summary,,,0.1,3.14,1013
+en_US@piglatin,description,,,0,0.0,1013
+en_US@piglatin,package stats,,,0,0.0,1013
+en_US@piglatin,name,type,desktop,0,0,0
+en_US@piglatin,summary,type,desktop,0,0,0
+en_US@piglatin,description,type,desktop,0,0,0
+en_US@piglatin,package stats,type,desktop,0,0,0
+en_ZA,name,,,0,0.0,1013
+en_ZA,summary,,,0.1,3.14,1013
+en_ZA,description,,,0,0.0,1013
+en_ZA,package stats,,,0,0.0,1013
+en_ZA,name,type,desktop,0,0,0
+en_ZA,summary,type,desktop,0,0,0
+en_ZA,description,type,desktop,0,0,0
+en_ZA,package stats,type,desktop,0,0,0
+eo,name,,,8.59,28.02,1013
+eo,summary,,,11.75,32.2,1013
+eo,description,,,0.1,3.14,1013
+eo,package stats,,,0,0.0,1013
+eo,name,type,desktop,0,0,0
+eo,summary,type,desktop,0,0,0
+eo,description,type,desktop,0,0,0
+eo,package stats,type,desktop,0,0,0
+es,name,,,14.22,34.92,1013
+es,summary,,,35.44,47.83,1013
+es,description,,,5.03,21.87,1013
+es,package stats,,,0,0.0,1013
+es,name,type,desktop,0,0,0
+es,summary,type,desktop,0,0,0
+es,description,type,desktop,0,0,0
+es,package stats,type,desktop,0,0,0
+es_AR,name,,,0.1,3.14,1013
+es_AR,summary,,,0.1,3.14,1013
+es_AR,description,,,0,0.0,1013
+es_AR,package stats,,,0,0.0,1013
+es_AR,name,type,desktop,0,0,0
+es_AR,summary,type,desktop,0,0,0
+es_AR,description,type,desktop,0,0,0
+es_AR,package stats,type,desktop,0,0,0
+es_CL,name,,,0.1,3.14,1013
+es_CL,summary,,,0.1,3.14,1013
+es_CL,description,,,0,0.0,1013
+es_CL,package stats,,,0,0.0,1013
+es_CL,name,type,desktop,0,0,0
+es_CL,summary,type,desktop,0,0,0
+es_CL,description,type,desktop,0,0,0
+es_CL,package stats,type,desktop,0,0,0
+es_CO,name,,,0.1,3.14,1013
+es_CO,summary,,,0.2,4.44,1013
+es_CO,description,,,0,0.0,1013
+es_CO,package stats,,,0,0.0,1013
+es_CO,name,type,desktop,0,0,0
+es_CO,summary,type,desktop,0,0,0
+es_CO,description,type,desktop,0,0,0
+es_CO,package stats,type,desktop,0,0,0
+es_CR,name,,,0.1,3.14,1013
+es_CR,summary,,,0.1,3.14,1013
+es_CR,description,,,0,0.0,1013
+es_CR,package stats,,,0,0.0,1013
+es_CR,name,type,desktop,0,0,0
+es_CR,summary,type,desktop,0,0,0
+es_CR,description,type,desktop,0,0,0
+es_CR,package stats,type,desktop,0,0,0
+es_DO,name,,,0.1,3.14,1013
+es_DO,summary,,,0.1,3.14,1013
+es_DO,description,,,0,0.0,1013
+es_DO,package stats,,,0,0.0,1013
+es_DO,name,type,desktop,0,0,0
+es_DO,summary,type,desktop,0,0,0
+es_DO,description,type,desktop,0,0,0
+es_DO,package stats,type,desktop,0,0,0
+es_EC,name,,,0.1,3.14,1013
+es_EC,summary,,,0.1,3.14,1013
+es_EC,description,,,0,0.0,1013
+es_EC,package stats,,,0,0.0,1013
+es_EC,name,type,desktop,0,0,0
+es_EC,summary,type,desktop,0,0,0
+es_EC,description,type,desktop,0,0,0
+es_EC,package stats,type,desktop,0,0,0
+es_ES,name,,,0.59,7.67,1013
+es_ES,summary,,,0.49,7.01,1013
+es_ES,description,,,0,0.0,1013
+es_ES,package stats,,,0,0.0,1013
+es_ES,name,type,desktop,0,0,0
+es_ES,summary,type,desktop,0,0,0
+es_ES,description,type,desktop,0,0,0
+es_ES,package stats,type,desktop,0,0,0
+es_GT,name,,,0.1,3.14,1013
+es_GT,summary,,,0.1,3.14,1013
+es_GT,description,,,0,0.0,1013
+es_GT,package stats,,,0,0.0,1013
+es_GT,name,type,desktop,0,0,0
+es_GT,summary,type,desktop,0,0,0
+es_GT,description,type,desktop,0,0,0
+es_GT,package stats,type,desktop,0,0,0
+es_HN,name,,,0.1,3.14,1013
+es_HN,summary,,,0.1,3.14,1013
+es_HN,description,,,0,0.0,1013
+es_HN,package stats,,,0,0.0,1013
+es_HN,name,type,desktop,0,0,0
+es_HN,summary,type,desktop,0,0,0
+es_HN,description,type,desktop,0,0,0
+es_HN,package stats,type,desktop,0,0,0
+es_MX,name,,,0.3,5.43,1013
+es_MX,summary,,,0.3,5.43,1013
+es_MX,description,,,0,0.0,1013
+es_MX,package stats,,,0,0.0,1013
+es_MX,name,type,desktop,0,0,0
+es_MX,summary,type,desktop,0,0,0
+es_MX,description,type,desktop,0,0,0
+es_MX,package stats,type,desktop,0,0,0
+es_NI,name,,,0.1,3.14,1013
+es_NI,summary,,,0.1,3.14,1013
+es_NI,description,,,0,0.0,1013
+es_NI,package stats,,,0,0.0,1013
+es_NI,name,type,desktop,0,0,0
+es_NI,summary,type,desktop,0,0,0
+es_NI,description,type,desktop,0,0,0
+es_NI,package stats,type,desktop,0,0,0
+es_PA,name,,,0.1,3.14,1013
+es_PA,summary,,,0.1,3.14,1013
+es_PA,description,,,0,0.0,1013
+es_PA,package stats,,,0,0.0,1013
+es_PA,name,type,desktop,0,0,0
+es_PA,summary,type,desktop,0,0,0
+es_PA,description,type,desktop,0,0,0
+es_PA,package stats,type,desktop,0,0,0
+es_PE,name,,,0.1,3.14,1013
+es_PE,summary,,,0.1,3.14,1013
+es_PE,description,,,0,0.0,1013
+es_PE,package stats,,,0,0.0,1013
+es_PE,name,type,desktop,0,0,0
+es_PE,summary,type,desktop,0,0,0
+es_PE,description,type,desktop,0,0,0
+es_PE,package stats,type,desktop,0,0,0
+es_PR,name,,,0.1,3.14,1013
+es_PR,summary,,,0.1,3.14,1013
+es_PR,description,,,0,0.0,1013
+es_PR,package stats,,,0,0.0,1013
+es_PR,name,type,desktop,0,0,0
+es_PR,summary,type,desktop,0,0,0
+es_PR,description,type,desktop,0,0,0
+es_PR,package stats,type,desktop,0,0,0
+es_SV,name,,,0.1,3.14,1013
+es_SV,summary,,,0.1,3.14,1013
+es_SV,description,,,0,0.0,1013
+es_SV,package stats,,,0,0.0,1013
+es_SV,name,type,desktop,0,0,0
+es_SV,summary,type,desktop,0,0,0
+es_SV,description,type,desktop,0,0,0
+es_SV,package stats,type,desktop,0,0,0
+es_UY,name,,,0.1,3.14,1013
+es_UY,summary,,,0.1,3.14,1013
+es_UY,description,,,0,0.0,1013
+es_UY,package stats,,,0,0.0,1013
+es_UY,name,type,desktop,0,0,0
+es_UY,summary,type,desktop,0,0,0
+es_UY,description,type,desktop,0,0,0
+es_UY,package stats,type,desktop,0,0,0
+es_VE,name,,,0.2,4.44,1013
+es_VE,summary,,,0.3,5.43,1013
+es_VE,description,,,0,0.0,1013
+es_VE,package stats,,,0,0.0,1013
+es_VE,name,type,desktop,0,0,0
+es_VE,summary,type,desktop,0,0,0
+es_VE,description,type,desktop,0,0,0
+es_VE,package stats,type,desktop,0,0,0
+et,name,,,8.88,28.45,1013
+et,summary,,,19.84,39.88,1013
+et,description,,,3.16,17.49,1013
+et,package stats,,,0,0.0,1013
+et,name,type,desktop,0,0,0
+et,summary,type,desktop,0,0,0
+et,description,type,desktop,0,0,0
+et,package stats,type,desktop,0,0,0
+et_EE,name,,,0.1,3.14,1013
+et_EE,summary,,,0.1,3.14,1013
+et_EE,description,,,0,0.0,1013
+et_EE,package stats,,,0,0.0,1013
+et_EE,name,type,desktop,0,0,0
+et_EE,summary,type,desktop,0,0,0
+et_EE,description,type,desktop,0,0,0
+et_EE,package stats,type,desktop,0,0,0
+eu,name,,,9.87,29.83,1013
+eu,summary,,,19.45,39.58,1013
+eu,description,,,0.89,9.38,1013
+eu,package stats,,,0,0.0,1013
+eu,name,type,desktop,0,0,0
+eu,summary,type,desktop,0,0,0
+eu,description,type,desktop,0,0,0
+eu,package stats,type,desktop,0,0,0
+ex,name,,,0,0.0,1013
+ex,summary,,,0.1,3.14,1013
+ex,description,,,0,0.0,1013
+ex,package stats,,,0,0.0,1013
+ex,name,type,desktop,0,0,0
+ex,summary,type,desktop,0,0,0
+ex,description,type,desktop,0,0,0
+ex,package stats,type,desktop,0,0,0
+fa,name,,,8.59,28.02,1013
+fa,summary,,,11.85,32.32,1013
+fa,description,,,0.59,7.67,1013
+fa,package stats,,,0,0.0,1013
+fa,name,type,desktop,0,0,0
+fa,summary,type,desktop,0,0,0
+fa,description,type,desktop,0,0,0
+fa,package stats,type,desktop,0,0,0
+fa_IR,name,,,0.2,4.44,1013
+fa_IR,summary,,,0.2,4.44,1013
+fa_IR,description,,,0,0.0,1013
+fa_IR,package stats,,,0,0.0,1013
+fa_IR,name,type,desktop,0,0,0
+fa_IR,summary,type,desktop,0,0,0
+fa_IR,description,type,desktop,0,0,0
+fa_IR,package stats,type,desktop,0,0,0
+ff,name,,,0,0.0,1013
+ff,summary,,,0.1,3.14,1013
+ff,description,,,0,0.0,1013
+ff,package stats,,,0,0.0,1013
+ff,name,type,desktop,0,0,0
+ff,summary,type,desktop,0,0,0
+ff,description,type,desktop,0,0,0
+ff,package stats,type,desktop,0,0,0
+fi,name,,,12.34,32.89,1013
+fi,summary,,,25.67,43.68,1013
+fi,description,,,3.36,18.01,1013
+fi,package stats,,,0,0.0,1013
+fi,name,type,desktop,0,0,0
+fi,summary,type,desktop,0,0,0
+fi,description,type,desktop,0,0,0
+fi,package stats,type,desktop,0,0,0
+fi_FI,name,,,0,0.0,1013
+fi_FI,summary,,,0.1,3.14,1013
+fi_FI,description,,,0,0.0,1013
+fi_FI,package stats,,,0,0.0,1013
+fi_FI,name,type,desktop,0,0,0
+fi_FI,summary,type,desktop,0,0,0
+fi_FI,description,type,desktop,0,0,0
+fi_FI,package stats,type,desktop,0,0,0
+fil,name,,,0,0.0,1013
+fil,summary,,,0.1,3.14,1013
+fil,description,,,0,0.0,1013
+fil,package stats,,,0,0.0,1013
+fil,name,type,desktop,0,0,0
+fil,summary,type,desktop,0,0,0
+fil,description,type,desktop,0,0,0
+fil,package stats,type,desktop,0,0,0
+fo,name,,,0.3,5.43,1013
+fo,summary,,,0.69,8.28,1013
+fo,description,,,0,0.0,1013
+fo,package stats,,,0,0.0,1013
+fo,name,type,desktop,0,0,0
+fo,summary,type,desktop,0,0,0
+fo,description,type,desktop,0,0,0
+fo,package stats,type,desktop,0,0,0
+fr,name,,,13.82,34.51,1013
+fr,summary,,,39.29,48.84,1013
+fr,description,,,3.95,19.47,1013
+fr,package stats,,,0,0.0,1013
+fr,name,type,desktop,0,0,0
+fr,summary,type,desktop,0,0,0
+fr,description,type,desktop,0,0,0
+fr,package stats,type,desktop,0,0,0
+fr_CA,name,,,0.1,3.14,1013
+fr_CA,summary,,,0.1,3.14,1013
+fr_CA,description,,,0,0.0,1013
+fr_CA,package stats,,,0,0.0,1013
+fr_CA,name,type,desktop,0,0,0
+fr_CA,summary,type,desktop,0,0,0
+fr_CA,description,type,desktop,0,0,0
+fr_CA,package stats,type,desktop,0,0,0
+fr_FR,name,,,0.3,5.43,1013
+fr_FR,summary,,,0.49,7.01,1013
+fr_FR,description,,,0,0.0,1013
+fr_FR,package stats,,,0,0.0,1013
+fr_FR,name,type,desktop,0,0,0
+fr_FR,summary,type,desktop,0,0,0
+fr_FR,description,type,desktop,0,0,0
+fr_FR,package stats,type,desktop,0,0,0
+fur,name,,,1.68,12.85,1013
+fur,summary,,,2.17,14.58,1013
+fur,description,,,0,0.0,1013
+fur,package stats,,,0,0.0,1013
+fur,name,type,desktop,0,0,0
+fur,summary,type,desktop,0,0,0
+fur,description,type,desktop,0,0,0
+fur,package stats,type,desktop,0,0,0
+fy,name,,,0.59,7.67,1013
+fy,summary,,,0.69,8.28,1013
+fy,description,,,0,0.0,1013
+fy,package stats,,,0,0.0,1013
+fy,name,type,desktop,0,0,0
+fy,summary,type,desktop,0,0,0
+fy,description,type,desktop,0,0,0
+fy,package stats,type,desktop,0,0,0
+ga,name,,,6.02,23.79,1013
+ga,summary,,,9.77,29.69,1013
+ga,description,,,0.2,4.44,1013
+ga,package stats,,,0,0.0,1013
+ga,name,type,desktop,0,0,0
+ga,summary,type,desktop,0,0,0
+ga,description,type,desktop,0,0,0
+ga,package stats,type,desktop,0,0,0
+gd,name,,,0.2,4.44,1013
+gd,summary,,,0.79,8.85,1013
+gd,description,,,0.2,4.44,1013
+gd,package stats,,,0,0.0,1013
+gd,name,type,desktop,0,0,0
+gd,summary,type,desktop,0,0,0
+gd,description,type,desktop,0,0,0
+gd,package stats,type,desktop,0,0,0
+gl,name,,,10.86,31.11,1013
+gl,summary,,,24.09,42.76,1013
+gl,description,,,1.18,10.82,1013
+gl,package stats,,,0,0.0,1013
+gl,name,type,desktop,0,0,0
+gl,summary,type,desktop,0,0,0
+gl,description,type,desktop,0,0,0
+gl,package stats,type,desktop,0,0,0
+gl_ES,name,,,0,0.0,1013
+gl_ES,summary,,,0.2,4.44,1013
+gl_ES,description,,,0,0.0,1013
+gl_ES,package stats,,,0,0.0,1013
+gl_ES,name,type,desktop,0,0,0
+gl_ES,summary,type,desktop,0,0,0
+gl_ES,description,type,desktop,0,0,0
+gl_ES,package stats,type,desktop,0,0,0
+gu,name,,,8.09,27.28,1013
+gu,summary,,,10.86,31.11,1013
+gu,description,,,0.1,3.14,1013
+gu,package stats,,,0,0.0,1013
+gu,name,type,desktop,0,0,0
+gu,summary,type,desktop,0,0,0
+gu,description,type,desktop,0,0,0
+gu,package stats,type,desktop,0,0,0
+gv,name,,,0.2,4.44,1013
+gv,summary,,,0.39,6.27,1013
+gv,description,,,0,0.0,1013
+gv,package stats,,,0,0.0,1013
+gv,name,type,desktop,0,0,0
+gv,summary,type,desktop,0,0,0
+gv,description,type,desktop,0,0,0
+gv,package stats,type,desktop,0,0,0
+ha,name,,,0.2,4.44,1013
+ha,summary,,,0,0.0,1013
+ha,description,,,0,0.0,1013
+ha,package stats,,,0,0.0,1013
+ha,name,type,desktop,0,0,0
+ha,summary,type,desktop,0,0,0
+ha,description,type,desktop,0,0,0
+ha,package stats,type,desktop,0,0,0
+he,name,,,10.27,30.35,1013
+he,summary,,,17.18,37.72,1013
+he,description,,,0.89,9.38,1013
+he,package stats,,,0,0.0,1013
+he,name,type,desktop,0,0,0
+he,summary,type,desktop,0,0,0
+he,description,type,desktop,0,0,0
+he,package stats,type,desktop,0,0,0
+hi,name,,,11.94,32.43,1013
+hi,summary,,,11.65,32.08,1013
+hi,description,,,0.2,4.44,1013
+hi,package stats,,,0,0.0,1013
+hi,name,type,desktop,0,0,0
+hi,summary,type,desktop,0,0,0
+hi,description,type,desktop,0,0,0
+hi,package stats,type,desktop,0,0,0
+hi_IN,name,,,0,0.0,1013
+hi_IN,summary,,,0.1,3.14,1013
+hi_IN,description,,,0,0.0,1013
+hi_IN,package stats,,,0,0.0,1013
+hi_IN,name,type,desktop,0,0,0
+hi_IN,summary,type,desktop,0,0,0
+hi_IN,description,type,desktop,0,0,0
+hi_IN,package stats,type,desktop,0,0,0
+hne,name,,,4.64,21.03,1013
+hne,summary,,,3.75,19.0,1013
+hne,description,,,0,0.0,1013
+hne,package stats,,,0,0.0,1013
+hne,name,type,desktop,0,0,0
+hne,summary,type,desktop,0,0,0
+hne,description,type,desktop,0,0,0
+hne,package stats,type,desktop,0,0,0
+hr,name,,,4.94,21.66,1013
+hr,summary,,,9.87,29.83,1013
+hr,description,,,0,0.0,1013
+hr,package stats,,,0,0.0,1013
+hr,name,type,desktop,0,0,0
+hr,summary,type,desktop,0,0,0
+hr,description,type,desktop,0,0,0
+hr,package stats,type,desktop,0,0,0
+hr_HR,name,,,0,0.0,1013
+hr_HR,summary,,,0.1,3.14,1013
+hr_HR,description,,,0,0.0,1013
+hr_HR,package stats,,,0,0.0,1013
+hr_HR,name,type,desktop,0,0,0
+hr_HR,summary,type,desktop,0,0,0
+hr_HR,description,type,desktop,0,0,0
+hr_HR,package stats,type,desktop,0,0,0
+hsb,name,,,0.1,3.14,1013
+hsb,summary,,,0.1,3.14,1013
+hsb,description,,,0,0.0,1013
+hsb,package stats,,,0,0.0,1013
+hsb,name,type,desktop,0,0,0
+hsb,summary,type,desktop,0,0,0
+hsb,description,type,desktop,0,0,0
+hsb,package stats,type,desktop,0,0,0
+hu,name,,,12.93,33.56,1013
+hu,summary,,,27.54,44.67,1013
+hu,description,,,2.76,16.39,1013
+hu,package stats,,,0,0.0,1013
+hu,name,type,desktop,0,0,0
+hu,summary,type,desktop,0,0,0
+hu,description,type,desktop,0,0,0
+hu,package stats,type,desktop,0,0,0
+hu_HU,name,,,0,0.0,1013
+hu_HU,summary,,,0.1,3.14,1013
+hu_HU,description,,,0,0.0,1013
+hu_HU,package stats,,,0,0.0,1013
+hu_HU,name,type,desktop,0,0,0
+hu_HU,summary,type,desktop,0,0,0
+hu_HU,description,type,desktop,0,0,0
+hu_HU,package stats,type,desktop,0,0,0
+hy,name,,,0.79,8.85,1013
+hy,summary,,,1.28,11.26,1013
+hy,description,,,0,0.0,1013
+hy,package stats,,,0,0.0,1013
+hy,name,type,desktop,0,0,0
+hy,summary,type,desktop,0,0,0
+hy,description,type,desktop,0,0,0
+hy,package stats,type,desktop,0,0,0
+ia,name,,,0.3,5.43,1013
+ia,summary,,,1.78,13.21,1013
+ia,description,,,0.3,5.43,1013
+ia,package stats,,,0,0.0,1013
+ia,name,type,desktop,0,0,0
+ia,summary,type,desktop,0,0,0
+ia,description,type,desktop,0,0,0
+ia,package stats,type,desktop,0,0,0
+id,name,,,7.6,26.5,1013
+id,summary,,,15.4,36.09,1013
+id,description,,,1.28,11.26,1013
+id,package stats,,,0,0.0,1013
+id,name,type,desktop,0,0,0
+id,summary,type,desktop,0,0,0
+id,description,type,desktop,0,0,0
+id,package stats,type,desktop,0,0,0
+id_ID,name,,,0,0.0,1013
+id_ID,summary,,,0.1,3.14,1013
+id_ID,description,,,0,0.0,1013
+id_ID,package stats,,,0,0.0,1013
+id_ID,name,type,desktop,0,0,0
+id_ID,summary,type,desktop,0,0,0
+id_ID,description,type,desktop,0,0,0
+id_ID,package stats,type,desktop,0,0,0
+ig,name,,,0.2,4.44,1013
+ig,summary,,,0.1,3.14,1013
+ig,description,,,0,0.0,1013
+ig,package stats,,,0,0.0,1013
+ig,name,type,desktop,0,0,0
+ig,summary,type,desktop,0,0,0
+ig,description,type,desktop,0,0,0
+ig,package stats,type,desktop,0,0,0
+io,name,,,0.3,5.43,1013
+io,summary,,,0.1,3.14,1013
+io,description,,,0,0.0,1013
+io,package stats,,,0,0.0,1013
+io,name,type,desktop,0,0,0
+io,summary,type,desktop,0,0,0
+io,description,type,desktop,0,0,0
+io,package stats,type,desktop,0,0,0
+is,name,,,3.26,17.75,1013
+is,summary,,,6.81,25.19,1013
+is,description,,,0.1,3.14,1013
+is,package stats,,,0,0.0,1013
+is,name,type,desktop,0,0,0
+is,summary,type,desktop,0,0,0
+is,description,type,desktop,0,0,0
+is,package stats,type,desktop,0,0,0
+it,name,,,11.85,32.32,1013
+it,summary,,,32.08,46.68,1013
+it,description,,,3.85,19.24,1013
+it,package stats,,,0,0.0,1013
+it,name,type,desktop,0,0,0
+it,summary,type,desktop,0,0,0
+it,description,type,desktop,0,0,0
+it,package stats,type,desktop,0,0,0
+it_IT,name,,,0.3,5.43,1013
+it_IT,summary,,,0.39,6.27,1013
+it_IT,description,,,0,0.0,1013
+it_IT,package stats,,,0,0.0,1013
+it_IT,name,type,desktop,0,0,0
+it_IT,summary,type,desktop,0,0,0
+it_IT,description,type,desktop,0,0,0
+it_IT,package stats,type,desktop,0,0,0
+ja,name,,,10.96,31.24,1013
+ja,summary,,,23.49,42.4,1013
+ja,description,,,1.18,10.82,1013
+ja,package stats,,,0,0.0,1013
+ja,name,type,desktop,0,0,0
+ja,summary,type,desktop,0,0,0
+ja,description,type,desktop,0,0,0
+ja,package stats,type,desktop,0,0,0
+ja_JP,name,,,0.2,4.44,1013
+ja_JP,summary,,,0.3,5.43,1013
+ja_JP,description,,,0,0.0,1013
+ja_JP,package stats,,,0,0.0,1013
+ja_JP,name,type,desktop,0,0,0
+ja_JP,summary,type,desktop,0,0,0
+ja_JP,description,type,desktop,0,0,0
+ja_JP,package stats,type,desktop,0,0,0
+jv,name,,,0.1,3.14,1013
+jv,summary,,,0.1,3.14,1013
+jv,description,,,0,0.0,1013
+jv,package stats,,,0,0.0,1013
+jv,name,type,desktop,0,0,0
+jv,summary,type,desktop,0,0,0
+jv,description,type,desktop,0,0,0
+jv,package stats,type,desktop,0,0,0
+ka,name,,,2.86,16.68,1013
+ka,summary,,,3.75,19.0,1013
+ka,description,,,0,0.0,1013
+ka,package stats,,,0,0.0,1013
+ka,name,type,desktop,0,0,0
+ka,summary,type,desktop,0,0,0
+ka,description,type,desktop,0,0,0
+ka,package stats,type,desktop,0,0,0
+kk,name,,,3.26,17.75,1013
+kk,summary,,,8.0,27.12,1013
+kk,description,,,0,0.0,1013
+kk,package stats,,,0,0.0,1013
+kk,name,type,desktop,0,0,0
+kk,summary,type,desktop,0,0,0
+kk,description,type,desktop,0,0,0
+kk,package stats,type,desktop,0,0,0
+kk_KZ,name,,,0,0.0,1013
+kk_KZ,summary,,,0.1,3.14,1013
+kk_KZ,description,,,0,0.0,1013
+kk_KZ,package stats,,,0,0.0,1013
+kk_KZ,name,type,desktop,0,0,0
+kk_KZ,summary,type,desktop,0,0,0
+kk_KZ,description,type,desktop,0,0,0
+kk_KZ,package stats,type,desktop,0,0,0
+km,name,,,3.75,19.0,1013
+km,summary,,,10.56,30.74,1013
+km,description,,,0,0.0,1013
+km,package stats,,,0,0.0,1013
+km,name,type,desktop,0,0,0
+km,summary,type,desktop,0,0,0
+km,description,type,desktop,0,0,0
+km,package stats,type,desktop,0,0,0
+kn,name,,,7.6,26.5,1013
+kn,summary,,,8.79,28.31,1013
+kn,description,,,0.3,5.43,1013
+kn,package stats,,,0,0.0,1013
+kn,name,type,desktop,0,0,0
+kn,summary,type,desktop,0,0,0
+kn,description,type,desktop,0,0,0
+kn,package stats,type,desktop,0,0,0
+ko,name,,,12.83,33.45,1013
+ko,summary,,,20.73,40.54,1013
+ko,description,,,2.07,14.25,1013
+ko,package stats,,,0,0.0,1013
+ko,name,type,desktop,0,0,0
+ko,summary,type,desktop,0,0,0
+ko,description,type,desktop,0,0,0
+ko,package stats,type,desktop,0,0,0
+ko_KR,name,,,0,0.0,1013
+ko_KR,summary,,,0.1,3.14,1013
+ko_KR,description,,,0,0.0,1013
+ko_KR,package stats,,,0,0.0,1013
+ko_KR,name,type,desktop,0,0,0
+ko_KR,summary,type,desktop,0,0,0
+ko_KR,description,type,desktop,0,0,0
+ko_KR,package stats,type,desktop,0,0,0
+kok,name,,,0,0.0,1013
+kok,summary,,,0.1,3.14,1013
+kok,description,,,0.1,3.14,1013
+kok,package stats,,,0,0.0,1013
+kok,name,type,desktop,0,0,0
+kok,summary,type,desktop,0,0,0
+kok,description,type,desktop,0,0,0
+kok,package stats,type,desktop,0,0,0
+kok@latin,name,,,0,0.0,1013
+kok@latin,summary,,,0.1,3.14,1013
+kok@latin,description,,,0.1,3.14,1013
+kok@latin,package stats,,,0,0.0,1013
+kok@latin,name,type,desktop,0,0,0
+kok@latin,summary,type,desktop,0,0,0
+kok@latin,description,type,desktop,0,0,0
+kok@latin,package stats,type,desktop,0,0,0
+ks,name,,,0.39,6.27,1013
+ks,summary,,,0.39,6.27,1013
+ks,description,,,0.1,3.14,1013
+ks,package stats,,,0,0.0,1013
+ks,name,type,desktop,0,0,0
+ks,summary,type,desktop,0,0,0
+ks,description,type,desktop,0,0,0
+ks,package stats,type,desktop,0,0,0
+ku,name,,,2.17,14.58,1013
+ku,summary,,,2.57,15.81,1013
+ku,description,,,0,0.0,1013
+ku,package stats,,,0,0.0,1013
+ku,name,type,desktop,0,0,0
+ku,summary,type,desktop,0,0,0
+ku,description,type,desktop,0,0,0
+ku,package stats,type,desktop,0,0,0
+ky,name,,,1.58,12.47,1013
+ky,summary,,,1.58,12.47,1013
+ky,description,,,0,0.0,1013
+ky,package stats,,,0,0.0,1013
+ky,name,type,desktop,0,0,0
+ky,summary,type,desktop,0,0,0
+ky,description,type,desktop,0,0,0
+ky,package stats,type,desktop,0,0,0
+la,name,,,0.2,4.44,1013
+la,summary,,,0,0.0,1013
+la,description,,,0,0.0,1013
+la,package stats,,,0,0.0,1013
+la,name,type,desktop,0,0,0
+la,summary,type,desktop,0,0,0
+la,description,type,desktop,0,0,0
+la,package stats,type,desktop,0,0,0
+lb,name,,,0,0.0,1013
+lb,summary,,,0.3,5.43,1013
+lb,description,,,0,0.0,1013
+lb,package stats,,,0,0.0,1013
+lb,name,type,desktop,0,0,0
+lb,summary,type,desktop,0,0,0
+lb,description,type,desktop,0,0,0
+lb,package stats,type,desktop,0,0,0
+lg,name,,,0.2,4.44,1013
+lg,summary,,,0.39,6.27,1013
+lg,description,,,0,0.0,1013
+lg,package stats,,,0,0.0,1013
+lg,name,type,desktop,0,0,0
+lg,summary,type,desktop,0,0,0
+lg,description,type,desktop,0,0,0
+lg,package stats,type,desktop,0,0,0
+li,name,,,0.3,5.43,1013
+li,summary,,,0.49,7.01,1013
+li,description,,,0,0.0,1013
+li,package stats,,,0,0.0,1013
+li,name,type,desktop,0,0,0
+li,summary,type,desktop,0,0,0
+li,description,type,desktop,0,0,0
+li,package stats,type,desktop,0,0,0
+lo,name,,,0,0.0,1013
+lo,summary,,,0.1,3.14,1013
+lo,description,,,0,0.0,1013
+lo,package stats,,,0,0.0,1013
+lo,name,type,desktop,0,0,0
+lo,summary,type,desktop,0,0,0
+lo,description,type,desktop,0,0,0
+lo,package stats,type,desktop,0,0,0
+lt,name,,,8.98,28.59,1013
+lt,summary,,,20.43,40.32,1013
+lt,description,,,1.78,13.21,1013
+lt,package stats,,,0,0.0,1013
+lt,name,type,desktop,0,0,0
+lt,summary,type,desktop,0,0,0
+lt,description,type,desktop,0,0,0
+lt,package stats,type,desktop,0,0,0
+lv,name,,,8.88,28.45,1013
+lv,summary,,,17.97,38.39,1013
+lv,description,,,1.18,10.82,1013
+lv,package stats,,,0,0.0,1013
+lv,name,type,desktop,0,0,0
+lv,summary,type,desktop,0,0,0
+lv,description,type,desktop,0,0,0
+lv,package stats,type,desktop,0,0,0
+mai,name,,,4.74,21.25,1013
+mai,summary,,,4.24,20.16,1013
+mai,description,,,0.1,3.14,1013
+mai,package stats,,,0,0.0,1013
+mai,name,type,desktop,0,0,0
+mai,summary,type,desktop,0,0,0
+mai,description,type,desktop,0,0,0
+mai,package stats,type,desktop,0,0,0
+mg,name,,,1.68,12.85,1013
+mg,summary,,,1.48,12.08,1013
+mg,description,,,0,0.0,1013
+mg,package stats,,,0,0.0,1013
+mg,name,type,desktop,0,0,0
+mg,summary,type,desktop,0,0,0
+mg,description,type,desktop,0,0,0
+mg,package stats,type,desktop,0,0,0
+mhr,name,,,0.1,3.14,1013
+mhr,summary,,,0.1,3.14,1013
+mhr,description,,,0,0.0,1013
+mhr,package stats,,,0,0.0,1013
+mhr,name,type,desktop,0,0,0
+mhr,summary,type,desktop,0,0,0
+mhr,description,type,desktop,0,0,0
+mhr,package stats,type,desktop,0,0,0
+mi,name,,,0.3,5.43,1013
+mi,summary,,,0,0.0,1013
+mi,description,,,0,0.0,1013
+mi,package stats,,,0,0.0,1013
+mi,name,type,desktop,0,0,0
+mi,summary,type,desktop,0,0,0
+mi,description,type,desktop,0,0,0
+mi,package stats,type,desktop,0,0,0
+mk,name,,,5.43,22.66,1013
+mk,summary,,,9.08,28.74,1013
+mk,description,,,0,0.0,1013
+mk,package stats,,,0,0.0,1013
+mk,name,type,desktop,0,0,0
+mk,summary,type,desktop,0,0,0
+mk,description,type,desktop,0,0,0
+mk,package stats,type,desktop,0,0,0
+ml,name,,,11.65,32.08,1013
+ml,summary,,,11.25,31.6,1013
+ml,description,,,0.1,3.14,1013
+ml,package stats,,,0,0.0,1013
+ml,name,type,desktop,0,0,0
+ml,summary,type,desktop,0,0,0
+ml,description,type,desktop,0,0,0
+ml,package stats,type,desktop,0,0,0
+mn,name,,,3.16,17.49,1013
+mn,summary,,,1.97,13.91,1013
+mn,description,,,0,0.0,1013
+mn,package stats,,,0,0.0,1013
+mn,name,type,desktop,0,0,0
+mn,summary,type,desktop,0,0,0
+mn,description,type,desktop,0,0,0
+mn,package stats,type,desktop,0,0,0
+mni,name,,,0.1,3.14,1013
+mni,summary,,,0.2,4.44,1013
+mni,description,,,0.1,3.14,1013
+mni,package stats,,,0,0.0,1013
+mni,name,type,desktop,0,0,0
+mni,summary,type,desktop,0,0,0
+mni,description,type,desktop,0,0,0
+mni,package stats,type,desktop,0,0,0
+mni@bengali,name,,,0,0.0,1013
+mni@bengali,summary,,,0.1,3.14,1013
+mni@bengali,description,,,0.1,3.14,1013
+mni@bengali,package stats,,,0,0.0,1013
+mni@bengali,name,type,desktop,0,0,0
+mni@bengali,summary,type,desktop,0,0,0
+mni@bengali,description,type,desktop,0,0,0
+mni@bengali,package stats,type,desktop,0,0,0
+mr,name,,,13.43,34.09,1013
+mr,summary,,,13.23,33.88,1013
+mr,description,,,0.2,4.44,1013
+mr,package stats,,,0,0.0,1013
+mr,name,type,desktop,0,0,0
+mr,summary,type,desktop,0,0,0
+mr,description,type,desktop,0,0,0
+mr,package stats,type,desktop,0,0,0
+ms,name,,,3.75,19.0,1013
+ms,summary,,,6.42,24.5,1013
+ms,description,,,0,0.0,1013
+ms,package stats,,,0,0.0,1013
+ms,name,type,desktop,0,0,0
+ms,summary,type,desktop,0,0,0
+ms,description,type,desktop,0,0,0
+ms,package stats,type,desktop,0,0,0
+my,name,,,0.89,9.38,1013
+my,summary,,,0.79,8.85,1013
+my,description,,,0,0.0,1013
+my,package stats,,,0,0.0,1013
+my,name,type,desktop,0,0,0
+my,summary,type,desktop,0,0,0
+my,description,type,desktop,0,0,0
+my,package stats,type,desktop,0,0,0
+my_MM,name,,,0.1,3.14,1013
+my_MM,summary,,,0.1,3.14,1013
+my_MM,description,,,0,0.0,1013
+my_MM,package stats,,,0,0.0,1013
+my_MM,name,type,desktop,0,0,0
+my_MM,summary,type,desktop,0,0,0
+my_MM,description,type,desktop,0,0,0
+my_MM,package stats,type,desktop,0,0,0
+nah,name,,,0,0.0,1013
+nah,summary,,,0.1,3.14,1013
+nah,description,,,0,0.0,1013
+nah,package stats,,,0,0.0,1013
+nah,name,type,desktop,0,0,0
+nah,summary,type,desktop,0,0,0
+nah,description,type,desktop,0,0,0
+nah,package stats,type,desktop,0,0,0
+nap,name,,,0,0.0,1013
+nap,summary,,,0.1,3.14,1013
+nap,description,,,0,0.0,1013
+nap,package stats,,,0,0.0,1013
+nap,name,type,desktop,0,0,0
+nap,summary,type,desktop,0,0,0
+nap,description,type,desktop,0,0,0
+nap,package stats,type,desktop,0,0,0
+nb,name,,,9.97,29.96,1013
+nb,summary,,,22.7,41.89,1013
+nb,description,,,1.58,12.47,1013
+nb,package stats,,,0,0.0,1013
+nb,name,type,desktop,0,0,0
+nb,summary,type,desktop,0,0,0
+nb,description,type,desktop,0,0,0
+nb,package stats,type,desktop,0,0,0
+nb_NO,name,,,0,0.0,1013
+nb_NO,summary,,,0.1,3.14,1013
+nb_NO,description,,,0,0.0,1013
+nb_NO,package stats,,,0,0.0,1013
+nb_NO,name,type,desktop,0,0,0
+nb_NO,summary,type,desktop,0,0,0
+nb_NO,description,type,desktop,0,0,0
+nb_NO,package stats,type,desktop,0,0,0
+nds,name,,,2.67,16.11,1013
+nds,summary,,,8.49,27.87,1013
+nds,description,,,2.57,15.81,1013
+nds,package stats,,,0,0.0,1013
+nds,name,type,desktop,0,0,0
+nds,summary,type,desktop,0,0,0
+nds,description,type,desktop,0,0,0
+nds,package stats,type,desktop,0,0,0
+ne,name,,,9.48,29.29,1013
+ne,summary,,,8.69,28.16,1013
+ne,description,,,0,0.0,1013
+ne,package stats,,,0,0.0,1013
+ne,name,type,desktop,0,0,0
+ne,summary,type,desktop,0,0,0
+ne,description,type,desktop,0,0,0
+ne,package stats,type,desktop,0,0,0
+nl,name,,,10.76,30.99,1013
+nl,summary,,,27.94,44.87,1013
+nl,description,,,4.24,20.16,1013
+nl,package stats,,,0,0.0,1013
+nl,name,type,desktop,0,0,0
+nl,summary,type,desktop,0,0,0
+nl,description,type,desktop,0,0,0
+nl,package stats,type,desktop,0,0,0
+nl_BE,name,,,0.1,3.14,1013
+nl_BE,summary,,,0.1,3.14,1013
+nl_BE,description,,,0,0.0,1013
+nl_BE,package stats,,,0,0.0,1013
+nl_BE,name,type,desktop,0,0,0
+nl_BE,summary,type,desktop,0,0,0
+nl_BE,description,type,desktop,0,0,0
+nl_BE,package stats,type,desktop,0,0,0
+nl_NL,name,,,0.39,6.27,1013
+nl_NL,summary,,,0.49,7.01,1013
+nl_NL,description,,,0,0.0,1013
+nl_NL,package stats,,,0,0.0,1013
+nl_NL,name,type,desktop,0,0,0
+nl_NL,summary,type,desktop,0,0,0
+nl_NL,description,type,desktop,0,0,0
+nl_NL,package stats,type,desktop,0,0,0
+nn,name,,,6.12,23.97,1013
+nn,summary,,,13.72,34.41,1013
+nn,description,,,0.2,4.44,1013
+nn,package stats,,,0,0.0,1013
+nn,name,type,desktop,0,0,0
+nn,summary,type,desktop,0,0,0
+nn,description,type,desktop,0,0,0
+nn,package stats,type,desktop,0,0,0
+nn_NO,name,,,0,0.0,1013
+nn_NO,summary,,,0.2,4.44,1013
+nn_NO,description,,,0,0.0,1013
+nn_NO,package stats,,,0,0.0,1013
+nn_NO,name,type,desktop,0,0,0
+nn_NO,summary,type,desktop,0,0,0
+nn_NO,description,type,desktop,0,0,0
+nn_NO,package stats,type,desktop,0,0,0
+no,name,,,0.3,5.43,1013
+no,summary,,,0.99,9.89,1013
+no,description,,,0,0.0,1013
+no,package stats,,,0,0.0,1013
+no,name,type,desktop,0,0,0
+no,summary,type,desktop,0,0,0
+no,description,type,desktop,0,0,0
+no,package stats,type,desktop,0,0,0
+no_NY,name,,,0,0.0,1013
+no_NY,summary,,,0.1,3.14,1013
+no_NY,description,,,0,0.0,1013
+no_NY,package stats,,,0,0.0,1013
+no_NY,name,type,desktop,0,0,0
+no_NY,summary,type,desktop,0,0,0
+no_NY,description,type,desktop,0,0,0
+no_NY,package stats,type,desktop,0,0,0
+nqo,name,,,0.1,3.14,1013
+nqo,summary,,,0.1,3.14,1013
+nqo,description,,,0,0.0,1013
+nqo,package stats,,,0,0.0,1013
+nqo,name,type,desktop,0,0,0
+nqo,summary,type,desktop,0,0,0
+nqo,description,type,desktop,0,0,0
+nqo,package stats,type,desktop,0,0,0
+nr,name,,,0.1,3.14,1013
+nr,summary,,,0.1,3.14,1013
+nr,description,,,0,0.0,1013
+nr,package stats,,,0,0.0,1013
+nr,name,type,desktop,0,0,0
+nr,summary,type,desktop,0,0,0
+nr,description,type,desktop,0,0,0
+nr,package stats,type,desktop,0,0,0
+nso,name,,,0.49,7.01,1013
+nso,summary,,,0.3,5.43,1013
+nso,description,,,0,0.0,1013
+nso,package stats,,,0,0.0,1013
+nso,name,type,desktop,0,0,0
+nso,summary,type,desktop,0,0,0
+nso,description,type,desktop,0,0,0
+nso,package stats,type,desktop,0,0,0
+oc,name,,,3.26,17.75,1013
+oc,summary,,,3.95,19.47,1013
+oc,description,,,0,0.0,1013
+oc,package stats,,,0,0.0,1013
+oc,name,type,desktop,0,0,0
+oc,summary,type,desktop,0,0,0
+oc,description,type,desktop,0,0,0
+oc,package stats,type,desktop,0,0,0
+or,name,,,6.81,25.19,1013
+or,summary,,,8.19,27.43,1013
+or,description,,,0.1,3.14,1013
+or,package stats,,,0,0.0,1013
+or,name,type,desktop,0,0,0
+or,summary,type,desktop,0,0,0
+or,description,type,desktop,0,0,0
+or,package stats,type,desktop,0,0,0
+pa,name,,,15.0,35.71,1013
+pa,summary,,,14.71,35.42,1013
+pa,description,,,0.89,9.38,1013
+pa,package stats,,,0,0.0,1013
+pa,name,type,desktop,0,0,0
+pa,summary,type,desktop,0,0,0
+pa,description,type,desktop,0,0,0
+pa,package stats,type,desktop,0,0,0
+pl,name,,,14.02,34.72,1013
+pl,summary,,,31.98,46.64,1013
+pl,description,,,5.33,22.46,1013
+pl,package stats,,,0,0.0,1013
+pl,name,type,desktop,0,0,0
+pl,summary,type,desktop,0,0,0
+pl,description,type,desktop,0,0,0
+pl,package stats,type,desktop,0,0,0
+pl_PL,name,,,0.1,3.14,1013
+pl_PL,summary,,,0.2,4.44,1013
+pl_PL,description,,,0,0.0,1013
+pl_PL,package stats,,,0,0.0,1013
+pl_PL,name,type,desktop,0,0,0
+pl_PL,summary,type,desktop,0,0,0
+pl_PL,description,type,desktop,0,0,0
+pl_PL,package stats,type,desktop,0,0,0
+ps,name,,,2.27,14.9,1013
+ps,summary,,,2.17,14.58,1013
+ps,description,,,0,0.0,1013
+ps,package stats,,,0,0.0,1013
+ps,name,type,desktop,0,0,0
+ps,summary,type,desktop,0,0,0
+ps,description,type,desktop,0,0,0
+ps,package stats,type,desktop,0,0,0
+pt,name,,,12.14,32.66,1013
+pt,summary,,,27.44,44.62,1013
+pt,description,,,4.24,20.16,1013
+pt,package stats,,,0,0.0,1013
+pt,name,type,desktop,0,0,0
+pt,summary,type,desktop,0,0,0
+pt,description,type,desktop,0,0,0
+pt,package stats,type,desktop,0,0,0
+pt_br,name,,,0,0.0,1013
+pt_br,summary,,,0.1,3.14,1013
+pt_br,description,,,0,0.0,1013
+pt_br,package stats,,,0,0.0,1013
+pt_br,name,type,desktop,0,0,0
+pt_br,summary,type,desktop,0,0,0
+pt_br,description,type,desktop,0,0,0
+pt_br,package stats,type,desktop,0,0,0
+pt_BR,name,,,12.44,33.0,1013
+pt_BR,summary,,,30.01,45.83,1013
+pt_BR,description,,,5.43,22.66,1013
+pt_BR,package stats,,,0,0.0,1013
+pt_BR,name,type,desktop,0,0,0
+pt_BR,summary,type,desktop,0,0,0
+pt_BR,description,type,desktop,0,0,0
+pt_BR,package stats,type,desktop,0,0,0
+pt_PT,name,,,0.39,6.27,1013
+pt_PT,summary,,,0.49,7.01,1013
+pt_PT,description,,,0,0.0,1013
+pt_PT,package stats,,,0,0.0,1013
+pt_PT,name,type,desktop,0,0,0
+pt_PT,summary,type,desktop,0,0,0
+pt_PT,description,type,desktop,0,0,0
+pt_PT,package stats,type,desktop,0,0,0
+ro,name,,,8.98,28.59,1013
+ro,summary,,,20.04,40.03,1013
+ro,description,,,0.1,3.14,1013
+ro,package stats,,,0,0.0,1013
+ro,name,type,desktop,0,0,0
+ro,summary,type,desktop,0,0,0
+ro,description,type,desktop,0,0,0
+ro,package stats,type,desktop,0,0,0
+ro_RO,name,,,0,0.0,1013
+ro_RO,summary,,,0.1,3.14,1013
+ro_RO,description,,,0,0.0,1013
+ro_RO,package stats,,,0,0.0,1013
+ro_RO,name,type,desktop,0,0,0
+ro_RO,summary,type,desktop,0,0,0
+ro_RO,description,type,desktop,0,0,0
+ro_RO,package stats,type,desktop,0,0,0
+ru,name,,,15.79,36.47,1013
+ru,summary,,,34.06,47.39,1013
+ru,description,,,1.68,12.85,1013
+ru,package stats,,,0,0.0,1013
+ru,name,type,desktop,0,0,0
+ru,summary,type,desktop,0,0,0
+ru,description,type,desktop,0,0,0
+ru,package stats,type,desktop,0,0,0
+ru_RU,name,,,0.1,3.14,1013
+ru_RU,summary,,,0.2,4.44,1013
+ru_RU,description,,,0,0.0,1013
+ru_RU,package stats,,,0,0.0,1013
+ru_RU,name,type,desktop,0,0,0
+ru_RU,summary,type,desktop,0,0,0
+ru_RU,description,type,desktop,0,0,0
+ru_RU,package stats,type,desktop,0,0,0
+rw,name,,,0.49,7.01,1013
+rw,summary,,,0,0.0,1013
+rw,description,,,0,0.0,1013
+rw,package stats,,,0,0.0,1013
+rw,name,type,desktop,0,0,0
+rw,summary,type,desktop,0,0,0
+rw,description,type,desktop,0,0,0
+rw,package stats,type,desktop,0,0,0
+sat,name,,,0.1,3.14,1013
+sat,summary,,,0.1,3.14,1013
+sat,description,,,0,0.0,1013
+sat,package stats,,,0,0.0,1013
+sat,name,type,desktop,0,0,0
+sat,summary,type,desktop,0,0,0
+sat,description,type,desktop,0,0,0
+sat,package stats,type,desktop,0,0,0
+sc,name,,,0,0.0,1013
+sc,summary,,,0.1,3.14,1013
+sc,description,,,0,0.0,1013
+sc,package stats,,,0,0.0,1013
+sc,name,type,desktop,0,0,0
+sc,summary,type,desktop,0,0,0
+sc,description,type,desktop,0,0,0
+sc,package stats,type,desktop,0,0,0
+sco,name,,,0,0.0,1013
+sco,summary,,,0.1,3.14,1013
+sco,description,,,0,0.0,1013
+sco,package stats,,,0,0.0,1013
+sco,name,type,desktop,0,0,0
+sco,summary,type,desktop,0,0,0
+sco,description,type,desktop,0,0,0
+sco,package stats,type,desktop,0,0,0
+sd,name,,,0.1,3.14,1013
+sd,summary,,,0.1,3.14,1013
+sd,description,,,0,0.0,1013
+sd,package stats,,,0,0.0,1013
+sd,name,type,desktop,0,0,0
+sd,summary,type,desktop,0,0,0
+sd,description,type,desktop,0,0,0
+sd,package stats,type,desktop,0,0,0
+se,name,,,0.1,3.14,1013
+se,summary,,,0.69,8.28,1013
+se,description,,,0,0.0,1013
+se,package stats,,,0,0.0,1013
+se,name,type,desktop,0,0,0
+se,summary,type,desktop,0,0,0
+se,description,type,desktop,0,0,0
+se,package stats,type,desktop,0,0,0
+si,name,,,3.46,18.26,1013
+si,summary,,,3.06,17.22,1013
+si,description,,,0,0.0,1013
+si,package stats,,,0,0.0,1013
+si,name,type,desktop,0,0,0
+si,summary,type,desktop,0,0,0
+si,description,type,desktop,0,0,0
+si,package stats,type,desktop,0,0,0
+sk,name,,,11.15,31.48,1013
+sk,summary,,,23.1,42.15,1013
+sk,description,,,4.15,19.94,1013
+sk,package stats,,,0,0.0,1013
+sk,name,type,desktop,0,0,0
+sk,summary,type,desktop,0,0,0
+sk,description,type,desktop,0,0,0
+sk,package stats,type,desktop,0,0,0
+sl,name,,,10.37,30.48,1013
+sl,summary,,,22.7,41.89,1013
+sl,description,,,4.15,19.94,1013
+sl,package stats,,,0,0.0,1013
+sl,name,type,desktop,0,0,0
+sl,summary,type,desktop,0,0,0
+sl,description,type,desktop,0,0,0
+sl,package stats,type,desktop,0,0,0
+so,name,,,0.1,3.14,1013
+so,summary,,,0.1,3.14,1013
+so,description,,,0,0.0,1013
+so,package stats,,,0,0.0,1013
+so,name,type,desktop,0,0,0
+so,summary,type,desktop,0,0,0
+so,description,type,desktop,0,0,0
+so,package stats,type,desktop,0,0,0
+son,name,,,0,0.0,1013
+son,summary,,,0.2,4.44,1013
+son,description,,,0,0.0,1013
+son,package stats,,,0,0.0,1013
+son,name,type,desktop,0,0,0
+son,summary,type,desktop,0,0,0
+son,description,type,desktop,0,0,0
+son,package stats,type,desktop,0,0,0
+sq,name,,,4.05,19.71,1013
+sq,summary,,,6.22,24.15,1013
+sq,description,,,0,0.0,1013
+sq,package stats,,,0,0.0,1013
+sq,name,type,desktop,0,0,0
+sq,summary,type,desktop,0,0,0
+sq,description,type,desktop,0,0,0
+sq,package stats,type,desktop,0,0,0
+sr,name,,,18.85,39.11,1013
+sr,summary,,,20.04,40.03,1013
+sr,description,,,2.37,15.21,1013
+sr,package stats,,,0,0.0,1013
+sr,name,type,desktop,0,0,0
+sr,summary,type,desktop,0,0,0
+sr,description,type,desktop,0,0,0
+sr,package stats,type,desktop,0,0,0
+sr@ije,name,,,0.49,7.01,1013
+sr@ije,summary,,,0.3,5.43,1013
+sr@ije,description,,,0,0.0,1013
+sr@ije,package stats,,,0,0.0,1013
+sr@ije,name,type,desktop,0,0,0
+sr@ije,summary,type,desktop,0,0,0
+sr@ije,description,type,desktop,0,0,0
+sr@ije,package stats,type,desktop,0,0,0
+sr@ijekavian,name,,,4.24,20.16,1013
+sr@ijekavian,summary,,,3.26,17.75,1013
+sr@ijekavian,description,,,0,0.0,1013
+sr@ijekavian,package stats,,,0,0.0,1013
+sr@ijekavian,name,type,desktop,0,0,0
+sr@ijekavian,summary,type,desktop,0,0,0
+sr@ijekavian,description,type,desktop,0,0,0
+sr@ijekavian,package stats,type,desktop,0,0,0
+sr@Ijekavian,name,,,0.1,3.14,1013
+sr@Ijekavian,summary,,,0,0.0,1013
+sr@Ijekavian,description,,,0,0.0,1013
+sr@Ijekavian,package stats,,,0,0.0,1013
+sr@Ijekavian,name,type,desktop,0,0,0
+sr@Ijekavian,summary,type,desktop,0,0,0
+sr@Ijekavian,description,type,desktop,0,0,0
+sr@Ijekavian,package stats,type,desktop,0,0,0
+sr@ijekavianlatin,name,,,2.37,15.21,1013
+sr@ijekavianlatin,summary,,,3.26,17.75,1013
+sr@ijekavianlatin,description,,,0,0.0,1013
+sr@ijekavianlatin,package stats,,,0,0.0,1013
+sr@ijekavianlatin,name,type,desktop,0,0,0
+sr@ijekavianlatin,summary,type,desktop,0,0,0
+sr@ijekavianlatin,description,type,desktop,0,0,0
+sr@ijekavianlatin,package stats,type,desktop,0,0,0
+sr@latin,name,,,12.64,33.23,1013
+sr@latin,summary,,,16.29,36.93,1013
+sr@latin,description,,,1.58,12.47,1013
+sr@latin,package stats,,,0,0.0,1013
+sr@latin,name,type,desktop,0,0,0
+sr@latin,summary,type,desktop,0,0,0
+sr@latin,description,type,desktop,0,0,0
+sr@latin,package stats,type,desktop,0,0,0
+sr@Latn,name,,,0.69,8.28,1013
+sr@Latn,summary,,,0.79,8.85,1013
+sr@Latn,description,,,0,0.0,1013
+sr@Latn,package stats,,,0,0.0,1013
+sr@Latn,name,type,desktop,0,0,0
+sr@Latn,summary,type,desktop,0,0,0
+sr@Latn,description,type,desktop,0,0,0
+sr@Latn,package stats,type,desktop,0,0,0
+sr_ijekavian,name,,,0.69,8.28,1013
+sr_ijekavian,summary,,,0.59,7.67,1013
+sr_ijekavian,description,,,0.69,8.28,1013
+sr_ijekavian,package stats,,,0,0.0,1013
+sr_ijekavian,name,type,desktop,0,0,0
+sr_ijekavian,summary,type,desktop,0,0,0
+sr_ijekavian,description,type,desktop,0,0,0
+sr_ijekavian,package stats,type,desktop,0,0,0
+sr_ijekavianlatin,name,,,0.39,6.27,1013
+sr_ijekavianlatin,summary,,,0.59,7.67,1013
+sr_ijekavianlatin,description,,,0.69,8.28,1013
+sr_ijekavianlatin,package stats,,,0,0.0,1013
+sr_ijekavianlatin,name,type,desktop,0,0,0
+sr_ijekavianlatin,summary,type,desktop,0,0,0
+sr_ijekavianlatin,description,type,desktop,0,0,0
+sr_ijekavianlatin,package stats,type,desktop,0,0,0
+sr_Latn,name,,,0.39,6.27,1013
+sr_Latn,summary,,,0.59,7.67,1013
+sr_Latn,description,,,0.69,8.28,1013
+sr_Latn,package stats,,,0,0.0,1013
+sr_Latn,name,type,desktop,0,0,0
+sr_Latn,summary,type,desktop,0,0,0
+sr_Latn,description,type,desktop,0,0,0
+sr_Latn,package stats,type,desktop,0,0,0
+sr_ME,name,,,0.1,3.14,1013
+sr_ME,summary,,,0.1,3.14,1013
+sr_ME,description,,,0,0.0,1013
+sr_ME,package stats,,,0,0.0,1013
+sr_ME,name,type,desktop,0,0,0
+sr_ME,summary,type,desktop,0,0,0
+sr_ME,description,type,desktop,0,0,0
+sr_ME,package stats,type,desktop,0,0,0
+ss,name,,,0,0.0,1013
+ss,summary,,,0.1,3.14,1013
+ss,description,,,0,0.0,1013
+ss,package stats,,,0,0.0,1013
+ss,name,type,desktop,0,0,0
+ss,summary,type,desktop,0,0,0
+ss,description,type,desktop,0,0,0
+ss,package stats,type,desktop,0,0,0
+st,name,,,0,0.0,1013
+st,summary,,,0.1,3.14,1013
+st,description,,,0,0.0,1013
+st,package stats,,,0,0.0,1013
+st,name,type,desktop,0,0,0
+st,summary,type,desktop,0,0,0
+st,description,type,desktop,0,0,0
+st,package stats,type,desktop,0,0,0
+sv,name,,,14.31,35.02,1013
+sv,summary,,,28.63,45.2,1013
+sv,description,,,3.46,18.26,1013
+sv,package stats,,,0,0.0,1013
+sv,name,type,desktop,0,0,0
+sv,summary,type,desktop,0,0,0
+sv,description,type,desktop,0,0,0
+sv,package stats,type,desktop,0,0,0
+sv_SE,name,,,0.1,3.14,1013
+sv_SE,summary,,,0.2,4.44,1013
+sv_SE,description,,,0,0.0,1013
+sv_SE,package stats,,,0,0.0,1013
+sv_SE,name,type,desktop,0,0,0
+sv_SE,summary,type,desktop,0,0,0
+sv_SE,description,type,desktop,0,0,0
+sv_SE,package stats,type,desktop,0,0,0
+sv_SE.ISO8859_15,name,,,0,0.0,1013
+sv_SE.ISO8859_15,summary,,,0.1,3.14,1013
+sv_SE.ISO8859_15,description,,,0,0.0,1013
+sv_SE.ISO8859_15,package stats,,,0,0.0,1013
+sv_SE.ISO8859_15,name,type,desktop,0,0,0
+sv_SE.ISO8859_15,summary,type,desktop,0,0,0
+sv_SE.ISO8859_15,description,type,desktop,0,0,0
+sv_SE.ISO8859_15,package stats,type,desktop,0,0,0
+sw,name,,,0.1,3.14,1013
+sw,summary,,,0.2,4.44,1013
+sw,description,,,0,0.0,1013
+sw,package stats,,,0,0.0,1013
+sw,name,type,desktop,0,0,0
+sw,summary,type,desktop,0,0,0
+sw,description,type,desktop,0,0,0
+sw,package stats,type,desktop,0,0,0
+ta,name,,,10.46,30.61,1013
+ta,summary,,,11.15,31.48,1013
+ta,description,,,0.59,7.67,1013
+ta,package stats,,,0,0.0,1013
+ta,name,type,desktop,0,0,0
+ta,summary,type,desktop,0,0,0
+ta,description,type,desktop,0,0,0
+ta,package stats,type,desktop,0,0,0
+ta_IN,name,,,0.1,3.14,1013
+ta_IN,summary,,,0.1,3.14,1013
+ta_IN,description,,,0,0.0,1013
+ta_IN,package stats,,,0,0.0,1013
+ta_IN,name,type,desktop,0,0,0
+ta_IN,summary,type,desktop,0,0,0
+ta_IN,description,type,desktop,0,0,0
+ta_IN,package stats,type,desktop,0,0,0
+ta_LK,name,,,0.2,4.44,1013
+ta_LK,summary,,,0.2,4.44,1013
+ta_LK,description,,,0,0.0,1013
+ta_LK,package stats,,,0,0.0,1013
+ta_LK,name,type,desktop,0,0,0
+ta_LK,summary,type,desktop,0,0,0
+ta_LK,description,type,desktop,0,0,0
+ta_LK,package stats,type,desktop,0,0,0
+te,name,,,11.65,32.08,1013
+te,summary,,,11.65,32.08,1013
+te,description,,,0.3,5.43,1013
+te,package stats,,,0,0.0,1013
+te,name,type,desktop,0,0,0
+te,summary,type,desktop,0,0,0
+te,description,type,desktop,0,0,0
+te,package stats,type,desktop,0,0,0
+te_IN,name,,,0,0.0,1013
+te_IN,summary,,,0.1,3.14,1013
+te_IN,description,,,0,0.0,1013
+te_IN,package stats,,,0,0.0,1013
+te_IN,name,type,desktop,0,0,0
+te_IN,summary,type,desktop,0,0,0
+te_IN,description,type,desktop,0,0,0
+te_IN,package stats,type,desktop,0,0,0
+tg,name,,,3.55,18.51,1013
+tg,summary,,,3.85,19.24,1013
+tg,description,,,0.49,7.01,1013
+tg,package stats,,,0,0.0,1013
+tg,name,type,desktop,0,0,0
+tg,summary,type,desktop,0,0,0
+tg,description,type,desktop,0,0,0
+tg,package stats,type,desktop,0,0,0
+th,name,,,8.59,28.02,1013
+th,summary,,,13.23,33.88,1013
+th,description,,,0.3,5.43,1013
+th,package stats,,,0,0.0,1013
+th,name,type,desktop,0,0,0
+th,summary,type,desktop,0,0,0
+th,description,type,desktop,0,0,0
+th,package stats,type,desktop,0,0,0
+tk,name,,,0.49,7.01,1013
+tk,summary,,,0.49,7.01,1013
+tk,description,,,0,0.0,1013
+tk,package stats,,,0,0.0,1013
+tk,name,type,desktop,0,0,0
+tk,summary,type,desktop,0,0,0
+tk,description,type,desktop,0,0,0
+tk,package stats,type,desktop,0,0,0
+tr,name,,,10.76,30.99,1013
+tr,summary,,,25.77,43.73,1013
+tr,description,,,2.86,16.68,1013
+tr,package stats,,,0,0.0,1013
+tr,name,type,desktop,0,0,0
+tr,summary,type,desktop,0,0,0
+tr,description,type,desktop,0,0,0
+tr,package stats,type,desktop,0,0,0
+tr_TR,name,,,0.3,5.43,1013
+tr_TR,summary,,,0.2,4.44,1013
+tr_TR,description,,,0,0.0,1013
+tr_TR,package stats,,,0,0.0,1013
+tr_TR,name,type,desktop,0,0,0
+tr_TR,summary,type,desktop,0,0,0
+tr_TR,description,type,desktop,0,0,0
+tr_TR,package stats,type,desktop,0,0,0
+ts,name,,,0.1,3.14,1013
+ts,summary,,,0.1,3.14,1013
+ts,description,,,0,0.0,1013
+ts,package stats,,,0,0.0,1013
+ts,name,type,desktop,0,0,0
+ts,summary,type,desktop,0,0,0
+ts,description,type,desktop,0,0,0
+ts,package stats,type,desktop,0,0,0
+tt,name,,,0.1,3.14,1013
+tt,summary,,,0,0.0,1013
+tt,description,,,0,0.0,1013
+tt,package stats,,,0,0.0,1013
+tt,name,type,desktop,0,0,0
+tt,summary,type,desktop,0,0,0
+tt,description,type,desktop,0,0,0
+tt,package stats,type,desktop,0,0,0
+tt_RU,name,,,0.1,3.14,1013
+tt_RU,summary,,,0.3,5.43,1013
+tt_RU,description,,,0,0.0,1013
+tt_RU,package stats,,,0,0.0,1013
+tt_RU,name,type,desktop,0,0,0
+tt_RU,summary,type,desktop,0,0,0
+tt_RU,description,type,desktop,0,0,0
+tt_RU,package stats,type,desktop,0,0,0
+twi,name,,,0,0.0,1013
+twi,summary,,,0.1,3.14,1013
+twi,description,,,0,0.0,1013
+twi,package stats,,,0,0.0,1013
+twi,name,type,desktop,0,0,0
+twi,summary,type,desktop,0,0,0
+twi,description,type,desktop,0,0,0
+twi,package stats,type,desktop,0,0,0
+ua,name,,,0,0.0,1013
+ua,summary,,,0.1,3.14,1013
+ua,description,,,0,0.0,1013
+ua,package stats,,,0,0.0,1013
+ua,name,type,desktop,0,0,0
+ua,summary,type,desktop,0,0,0
+ua,description,type,desktop,0,0,0
+ua,package stats,type,desktop,0,0,0
+ug,name,,,6.61,24.85,1013
+ug,summary,,,13.62,34.3,1013
+ug,description,,,0,0.0,1013
+ug,package stats,,,0,0.0,1013
+ug,name,type,desktop,0,0,0
+ug,summary,type,desktop,0,0,0
+ug,description,type,desktop,0,0,0
+ug,package stats,type,desktop,0,0,0
+uk,name,,,12.93,33.56,1013
+uk,summary,,,27.25,44.52,1013
+uk,description,,,4.54,20.82,1013
+uk,package stats,,,0,0.0,1013
+uk,name,type,desktop,0,0,0
+uk,summary,type,desktop,0,0,0
+uk,description,type,desktop,0,0,0
+uk,package stats,type,desktop,0,0,0
+ur,name,,,1.68,12.85,1013
+ur,summary,,,2.27,14.9,1013
+ur,description,,,0.1,3.14,1013
+ur,package stats,,,0,0.0,1013
+ur,name,type,desktop,0,0,0
+ur,summary,type,desktop,0,0,0
+ur,description,type,desktop,0,0,0
+ur,package stats,type,desktop,0,0,0
+ur_PK,name,,,0.79,8.85,1013
+ur_PK,summary,,,0.99,9.89,1013
+ur_PK,description,,,0,0.0,1013
+ur_PK,package stats,,,0,0.0,1013
+ur_PK,name,type,desktop,0,0,0
+ur_PK,summary,type,desktop,0,0,0
+ur_PK,description,type,desktop,0,0,0
+ur_PK,package stats,type,desktop,0,0,0
+uz,name,,,0.79,8.85,1013
+uz,summary,,,1.18,10.82,1013
+uz,description,,,0,0.0,1013
+uz,package stats,,,0,0.0,1013
+uz,name,type,desktop,0,0,0
+uz,summary,type,desktop,0,0,0
+uz,description,type,desktop,0,0,0
+uz,package stats,type,desktop,0,0,0
+uz@cyrillic,name,,,0.89,9.38,1013
+uz@cyrillic,summary,,,0.89,9.38,1013
+uz@cyrillic,description,,,0,0.0,1013
+uz@cyrillic,package stats,,,0,0.0,1013
+uz@cyrillic,name,type,desktop,0,0,0
+uz@cyrillic,summary,type,desktop,0,0,0
+uz@cyrillic,description,type,desktop,0,0,0
+uz@cyrillic,package stats,type,desktop,0,0,0
+ve,name,,,0,0.0,1013
+ve,summary,,,0.1,3.14,1013
+ve,description,,,0,0.0,1013
+ve,package stats,,,0,0.0,1013
+ve,name,type,desktop,0,0,0
+ve,summary,type,desktop,0,0,0
+ve,description,type,desktop,0,0,0
+ve,package stats,type,desktop,0,0,0
+ven,name,,,0.1,3.14,1013
+ven,summary,,,0.1,3.14,1013
+ven,description,,,0,0.0,1013
+ven,package stats,,,0,0.0,1013
+ven,name,type,desktop,0,0,0
+ven,summary,type,desktop,0,0,0
+ven,description,type,desktop,0,0,0
+ven,package stats,type,desktop,0,0,0
+vi,name,,,8.39,27.73,1013
+vi,summary,,,14.31,35.02,1013
+vi,description,,,0,0.0,1013
+vi,package stats,,,0,0.0,1013
+vi,name,type,desktop,0,0,0
+vi,summary,type,desktop,0,0,0
+vi,description,type,desktop,0,0,0
+vi,package stats,type,desktop,0,0,0
+vls,name,,,0,0.0,1013
+vls,summary,,,0.1,3.14,1013
+vls,description,,,0,0.0,1013
+vls,package stats,,,0,0.0,1013
+vls,name,type,desktop,0,0,0
+vls,summary,type,desktop,0,0,0
+vls,description,type,desktop,0,0,0
+vls,package stats,type,desktop,0,0,0
+wa,name,,,1.68,12.85,1013
+wa,summary,,,2.37,15.21,1013
+wa,description,,,0,0.0,1013
+wa,package stats,,,0,0.0,1013
+wa,name,type,desktop,0,0,0
+wa,summary,type,desktop,0,0,0
+wa,description,type,desktop,0,0,0
+wa,package stats,type,desktop,0,0,0
+wo,name,,,0,0.0,1013
+wo,summary,,,0.1,3.14,1013
+wo,description,,,0,0.0,1013
+wo,package stats,,,0,0.0,1013
+wo,name,type,desktop,0,0,0
+wo,summary,type,desktop,0,0,0
+wo,description,type,desktop,0,0,0
+wo,package stats,type,desktop,0,0,0
+xh,name,,,3.65,18.76,1013
+xh,summary,,,2.47,15.51,1013
+xh,description,,,0,0.0,1013
+xh,package stats,,,0,0.0,1013
+xh,name,type,desktop,0,0,0
+xh,summary,type,desktop,0,0,0
+xh,description,type,desktop,0,0,0
+xh,package stats,type,desktop,0,0,0
+yi,name,,,0.1,3.14,1013
+yi,summary,,,0,0.0,1013
+yi,description,,,0,0.0,1013
+yi,package stats,,,0,0.0,1013
+yi,name,type,desktop,0,0,0
+yi,summary,type,desktop,0,0,0
+yi,description,type,desktop,0,0,0
+yi,package stats,type,desktop,0,0,0
+yo,name,,,0.2,4.44,1013
+yo,summary,,,0.1,3.14,1013
+yo,description,,,0,0.0,1013
+yo,package stats,,,0,0.0,1013
+yo,name,type,desktop,0,0,0
+yo,summary,type,desktop,0,0,0
+yo,description,type,desktop,0,0,0
+yo,package stats,type,desktop,0,0,0
+zam,name,,,0,0.0,1013
+zam,summary,,,0.1,3.14,1013
+zam,description,,,0,0.0,1013
+zam,package stats,,,0,0.0,1013
+zam,name,type,desktop,0,0,0
+zam,summary,type,desktop,0,0,0
+zam,description,type,desktop,0,0,0
+zam,package stats,type,desktop,0,0,0
+zh,name,,,0.2,4.44,1013
+zh,summary,,,0.2,4.44,1013
+zh,description,,,0,0.0,1013
+zh,package stats,,,0,0.0,1013
+zh,name,type,desktop,0,0,0
+zh,summary,type,desktop,0,0,0
+zh,description,type,desktop,0,0,0
+zh,package stats,type,desktop,0,0,0
+zh_CN,name,,,14.61,35.32,1013
+zh_CN,summary,,,26.65,44.21,1013
+zh_CN,description,,,1.48,12.08,1013
+zh_CN,package stats,,,0,0.0,1013
+zh_CN,name,type,desktop,0,0,0
+zh_CN,summary,type,desktop,0,0,0
+zh_CN,description,type,desktop,0,0,0
+zh_CN,package stats,type,desktop,0,0,0
+zh_CN.GB2312,name,,,0.1,3.14,1013
+zh_CN.GB2312,summary,,,0.1,3.14,1013
+zh_CN.GB2312,description,,,0,0.0,1013
+zh_CN.GB2312,package stats,,,0,0.0,1013
+zh_CN.GB2312,name,type,desktop,0,0,0
+zh_CN.GB2312,summary,type,desktop,0,0,0
+zh_CN.GB2312,description,type,desktop,0,0,0
+zh_CN.GB2312,package stats,type,desktop,0,0,0
+zh_HK,name,,,7.5,26.34,1013
+zh_HK,summary,,,10.96,31.24,1013
+zh_HK,description,,,1.09,10.36,1013
+zh_HK,package stats,,,0,0.0,1013
+zh_HK,name,type,desktop,0,0,0
+zh_HK,summary,type,desktop,0,0,0
+zh_HK,description,type,desktop,0,0,0
+zh_HK,package stats,type,desktop,0,0,0
+zh_TW,name,,,16.68,37.28,1013
+zh_TW,summary,,,26.65,44.21,1013
+zh_TW,description,,,3.85,19.24,1013
+zh_TW,package stats,,,0,0.0,1013
+zh_TW,name,type,desktop,0,0,0
+zh_TW,summary,type,desktop,0,0,0
+zh_TW,description,type,desktop,0,0,0
+zh_TW,package stats,type,desktop,0,0,0
+zu,name,,,1.18,10.82,1013
+zu,summary,,,0.89,9.38,1013
+zu,description,,,0,0.0,1013
+zu,package stats,,,0,0.0,1013
+zu,name,type,desktop,0,0,0
+zu,summary,type,desktop,0,0,0
+zu,description,type,desktop,0,0,0
+zu,package stats,type,desktop,0,0,0
