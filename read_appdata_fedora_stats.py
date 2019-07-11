@@ -113,8 +113,12 @@ def give_stat(header, field, results_list, filter_field=None, filter_value=None)
         results = [to_number(stat[header.index(field)])
                    for stat in results_list]
 
-    mean = round(statistics.mean(results)*100, 2)
-    pstdev = round(statistics.pstdev(results)*100, 2)
+    try:
+        mean = round(statistics.mean(results)*100, 2)
+        pstdev = round(statistics.pstdev(results)*100, 2)
+    except statistics.StatisticsError:
+        mean = 0
+        pstdev = 0
 
     return [field, filter_field, filter_value, mean, pstdev, len(results)]
 
@@ -239,6 +243,8 @@ def download_file(url, filename):
                     f.write(chunk)
 
 
+
+
 def get_xml_file(version):
     """ open xml file, download it if missing
     """
@@ -287,7 +293,5 @@ def main():
     compute_per_language_stats(root, languages, args.version)
 
     print("4. Done !")
-
-
 if __name__ == '__main__':
     main()
