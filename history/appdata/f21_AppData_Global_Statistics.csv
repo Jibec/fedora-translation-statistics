@@ -271,14 +271,6 @@ da_DK,name,type,desktop,0,0.0,1059
 da_DK,summary,type,desktop,0.09,3.07,1059
 da_DK,description,type,desktop,0,0.0,1059
 da_DK,package stats,type,desktop,0.09,3.07,1059
-de,name,,,10.27,30.35,1490
-de,summary,,,31.54,46.47,1490
-de,description,,,8.26,27.52,1490
-de,package stats,,,10.87,31.13,1490
-de,name,type,desktop,12.65,33.25,1059
-de,summary,type,desktop,42.3,49.4,1059
-de,description,type,desktop,11.61,32.04,1059
-de,package stats,type,desktop,14.73,35.44,1059
 DE,name,,,0,0.0,1490
 DE,summary,,,0.07,2.59,1490
 DE,description,,,0,0.0,1490
@@ -287,6 +279,14 @@ DE,name,type,desktop,0,0.0,1059
 DE,summary,type,desktop,0.09,3.07,1059
 DE,description,type,desktop,0,0.0,1059
 DE,package stats,type,desktop,0,0.0,1059
+de,name,,,10.27,30.35,1490
+de,summary,,,31.54,46.47,1490
+de,description,,,8.26,27.52,1490
+de,package stats,,,10.87,31.13,1490
+de,name,type,desktop,12.65,33.25,1059
+de,summary,type,desktop,42.3,49.4,1059
+de,description,type,desktop,11.61,32.04,1059
+de,package stats,type,desktop,14.73,35.44,1059
 de_CH,name,,,0.2,4.48,1490
 de_CH,summary,,,0.2,4.48,1490
 de_CH,description,,,0,0.0,1490
@@ -1351,14 +1351,6 @@ pt,name,type,desktop,11.43,31.81,1059
 pt,summary,type,desktop,29.18,45.46,1059
 pt,description,type,desktop,9.73,29.63,1059
 pt,package stats,type,desktop,8.97,28.58,1059
-pt_br,name,,,0,0.0,1490
-pt_br,summary,,,0.07,2.59,1490
-pt_br,description,,,0,0.0,1490
-pt_br,package stats,,,0,0.0,1490
-pt_br,name,type,desktop,0,0.0,1059
-pt_br,summary,type,desktop,0.09,3.07,1059
-pt_br,description,type,desktop,0,0.0,1059
-pt_br,package stats,type,desktop,0,0.0,1059
 pt_BR,name,,,9.8,29.73,1490
 pt_BR,summary,,,24.63,43.09,1490
 pt_BR,description,,,8.79,28.32,1490
@@ -1367,6 +1359,14 @@ pt_BR,name,type,desktop,11.9,32.38,1059
 pt_BR,summary,type,desktop,32.29,46.76,1059
 pt_BR,description,type,desktop,12.18,32.71,1059
 pt_BR,package stats,type,desktop,13.31,33.97,1059
+pt_br,name,,,0,0.0,1490
+pt_br,summary,,,0.07,2.59,1490
+pt_br,description,,,0,0.0,1490
+pt_br,package stats,,,0,0.0,1490
+pt_br,name,type,desktop,0,0.0,1059
+pt_br,summary,type,desktop,0.09,3.07,1059
+pt_br,description,type,desktop,0,0.0,1059
+pt_br,package stats,type,desktop,0,0.0,1059
 pt_PT,name,,,0.13,3.66,1490
 pt_PT,summary,,,0.47,6.84,1490
 pt_PT,description,,,0.07,2.59,1490
@@ -1543,14 +1543,6 @@ sr@ije,name,type,desktop,0.38,6.13,1059
 sr@ije,summary,type,desktop,0.28,5.31,1059
 sr@ije,description,type,desktop,0,0.0,1059
 sr@ije,package stats,type,desktop,0,0.0,1059
-sr@ijekavian,name,,,2.95,16.93,1490
-sr@ijekavian,summary,,,2.15,14.5,1490
-sr@ijekavian,description,,,0,0.0,1490
-sr@ijekavian,package stats,,,0.4,6.33,1490
-sr@ijekavian,name,type,desktop,4.15,19.96,1059
-sr@ijekavian,summary,type,desktop,3.02,17.12,1059
-sr@ijekavian,description,type,desktop,0,0.0,1059
-sr@ijekavian,package stats,type,desktop,0.57,7.51,1059
 sr@Ijekavian,name,,,0.07,2.59,1490
 sr@Ijekavian,summary,,,0,0.0,1490
 sr@Ijekavian,description,,,0,0.0,1490
@@ -1559,6 +1551,14 @@ sr@Ijekavian,name,type,desktop,0.09,3.07,1059
 sr@Ijekavian,summary,type,desktop,0,0.0,1059
 sr@Ijekavian,description,type,desktop,0,0.0,1059
 sr@Ijekavian,package stats,type,desktop,0,0.0,1059
+sr@ijekavian,name,,,2.95,16.93,1490
+sr@ijekavian,summary,,,2.15,14.5,1490
+sr@ijekavian,description,,,0,0.0,1490
+sr@ijekavian,package stats,,,0.4,6.33,1490
+sr@ijekavian,name,type,desktop,4.15,19.96,1059
+sr@ijekavian,summary,type,desktop,3.02,17.12,1059
+sr@ijekavian,description,type,desktop,0,0.0,1059
+sr@ijekavian,package stats,type,desktop,0.57,7.51,1059
 sr@ijekavianlatin,name,,,1.68,12.84,1490
 sr@ijekavianlatin,summary,,,2.15,14.5,1490
 sr@ijekavianlatin,description,,,0,0.0,1490
