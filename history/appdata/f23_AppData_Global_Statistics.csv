@@ -1487,14 +1487,6 @@ sr@ije,name,type,desktop,0.43,6.52,703
 sr@ije,summary,type,desktop,0.28,5.33,703
 sr@ije,description,type,desktop,0,0.0,703
 sr@ije,package stats,type,desktop,0,0.0,703
-sr@Ijekavian,name,,,0.09,3.0,1107
-sr@Ijekavian,summary,,,0,0.0,1107
-sr@Ijekavian,description,,,0,0.0,1107
-sr@Ijekavian,package stats,,,0,0.0,1107
-sr@Ijekavian,name,type,desktop,0.14,3.77,703
-sr@Ijekavian,summary,type,desktop,0,0.0,703
-sr@Ijekavian,description,type,desktop,0,0.0,703
-sr@Ijekavian,package stats,type,desktop,0,0.0,703
 sr@ijekavian,name,,,3.97,19.54,1107
 sr@ijekavian,summary,,,2.35,15.14,1107
 sr@ijekavian,description,,,0,0.0,1107
@@ -1503,6 +1495,14 @@ sr@ijekavian,name,type,desktop,6.12,23.96,703
 sr@ijekavian,summary,type,desktop,3.56,18.52,703
 sr@ijekavian,description,type,desktop,0,0.0,703
 sr@ijekavian,package stats,type,desktop,0.85,9.2,703
+sr@Ijekavian,name,,,0.09,3.0,1107
+sr@Ijekavian,summary,,,0,0.0,1107
+sr@Ijekavian,description,,,0,0.0,1107
+sr@Ijekavian,package stats,,,0,0.0,1107
+sr@Ijekavian,name,type,desktop,0.14,3.77,703
+sr@Ijekavian,summary,type,desktop,0,0.0,703
+sr@Ijekavian,description,type,desktop,0,0.0,703
+sr@Ijekavian,package stats,type,desktop,0,0.0,703
 sr@ijekavianlatin,name,,,2.8,16.5,1107
 sr@ijekavianlatin,summary,,,2.35,15.14,1107
 sr@ijekavianlatin,description,,,0,0.0,1107
