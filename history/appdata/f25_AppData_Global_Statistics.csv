@@ -1447,14 +1447,6 @@ pt,name,type,desktop,14.37,35.08,835
 pt,summary,type,desktop,38.68,48.7,835
 pt,description,type,desktop,26.71,44.24,835
 pt,package stats,type,desktop,11.62,32.04,835
-pt_br,name,,,0,0.0,1418
-pt_br,summary,,,0.07,2.65,1418
-pt_br,description,,,0.07,2.65,1418
-pt_br,package stats,,,0,0.0,1418
-pt_br,name,type,desktop,0,0.0,835
-pt_br,summary,type,desktop,0.12,3.46,835
-pt_br,description,type,desktop,0.12,3.46,835
-pt_br,package stats,type,desktop,0,0.0,835
 pt_BR,name,,,12.34,32.89,1418
 pt_BR,summary,,,28.63,45.2,1418
 pt_BR,description,,,16.93,37.5,1418
@@ -1463,6 +1455,14 @@ pt_BR,name,type,desktop,15.45,36.14,835
 pt_BR,summary,type,desktop,42.4,49.42,835
 pt_BR,description,type,desktop,28.5,45.14,835
 pt_BR,package stats,type,desktop,16.05,36.7,835
+pt_br,name,,,0,0.0,1418
+pt_br,summary,,,0.07,2.65,1418
+pt_br,description,,,0.07,2.65,1418
+pt_br,package stats,,,0,0.0,1418
+pt_br,name,type,desktop,0,0.0,835
+pt_br,summary,type,desktop,0.12,3.46,835
+pt_br,description,type,desktop,0.12,3.46,835
+pt_br,package stats,type,desktop,0,0.0,835
 pt_PT,name,,,0.21,4.59,1418
 pt_PT,summary,,,0.56,7.49,1418
 pt_PT,description,,,0.14,3.75,1418
@@ -2095,14 +2095,6 @@ zh,name,type,desktop,0.12,3.46,835
 zh,summary,type,desktop,0.24,4.89,835
 zh,description,type,desktop,0.12,3.46,835
 zh,package stats,type,desktop,0.24,4.89,835
-zh_CN,name,,,13.68,34.36,1418
-zh_CN,summary,,,25.25,43.44,1418
-zh_CN,description,,,11.07,31.38,1418
-zh_CN,package stats,,,6.21,24.13,1418
-zh_CN,name,type,desktop,19.16,39.36,835
-zh_CN,summary,type,desktop,39.4,48.86,835
-zh_CN,description,type,desktop,18.8,39.07,835
-zh_CN,package stats,type,desktop,8.86,28.42,835
 zh_cn,name,,,0,0.0,1418
 zh_cn,summary,,,0.07,2.65,1418
 zh_cn,description,,,0.07,2.65,1418
@@ -2111,6 +2103,14 @@ zh_cn,name,type,desktop,0,0.0,835
 zh_cn,summary,type,desktop,0.12,3.46,835
 zh_cn,description,type,desktop,0.12,3.46,835
 zh_cn,package stats,type,desktop,0,0.0,835
+zh_CN,name,,,13.68,34.36,1418
+zh_CN,summary,,,25.25,43.44,1418
+zh_CN,description,,,11.07,31.38,1418
+zh_CN,package stats,,,6.21,24.13,1418
+zh_CN,name,type,desktop,19.16,39.36,835
+zh_CN,summary,type,desktop,39.4,48.86,835
+zh_CN,description,type,desktop,18.8,39.07,835
+zh_CN,package stats,type,desktop,8.86,28.42,835
 zh_CN.GB2312,name,,,0,0.0,1418
 zh_CN.GB2312,summary,,,0.07,2.65,1418
 zh_CN.GB2312,description,,,0,0.0,1418

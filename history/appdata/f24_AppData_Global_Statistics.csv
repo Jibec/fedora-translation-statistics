@@ -1991,14 +1991,6 @@ zh,name,type,desktop,0.13,3.54,795
 zh,summary,type,desktop,0.25,5.01,795
 zh,description,type,desktop,0.13,3.54,795
 zh,package stats,type,desktop,0.25,5.01,795
-zh_CN,name,,,16.53,37.15,1391
-zh_CN,summary,,,27.68,44.74,1391
-zh_CN,description,,,9.85,29.8,1391
-zh_CN,package stats,,,5.9,23.55,1391
-zh_CN,name,type,desktop,19.12,39.32,795
-zh_CN,summary,type,desktop,39.37,48.86,795
-zh_CN,description,type,desktop,17.11,37.66,795
-zh_CN,package stats,type,desktop,8.68,28.15,795
 zh_cn,name,,,0,0.0,1391
 zh_cn,summary,,,0.07,2.68,1391
 zh_cn,description,,,0.07,2.68,1391
@@ -2007,6 +1999,14 @@ zh_cn,name,type,desktop,0,0.0,795
 zh_cn,summary,type,desktop,0.13,3.54,795
 zh_cn,description,type,desktop,0.13,3.54,795
 zh_cn,package stats,type,desktop,0,0.0,795
+zh_CN,name,,,16.53,37.15,1391
+zh_CN,summary,,,27.68,44.74,1391
+zh_CN,description,,,9.85,29.8,1391
+zh_CN,package stats,,,5.9,23.55,1391
+zh_CN,name,type,desktop,19.12,39.32,795
+zh_CN,summary,type,desktop,39.37,48.86,795
+zh_CN,description,type,desktop,17.11,37.66,795
+zh_CN,package stats,type,desktop,8.68,28.15,795
 zh_CN.GB2312,name,,,0,0.0,1391
 zh_CN.GB2312,summary,,,0.07,2.68,1391
 zh_CN.GB2312,description,,,0,0.0,1391
@@ -2023,14 +2023,6 @@ zh_HK,name,type,desktop,10.19,30.25,795
 zh_HK,summary,type,desktop,15.09,35.8,795
 zh_HK,description,type,desktop,7.8,26.82,795
 zh_HK,package stats,type,desktop,0.75,8.65,795
-zh_tw,name,,,0.07,2.68,1391
-zh_tw,summary,,,0.07,2.68,1391
-zh_tw,description,,,0.07,2.68,1391
-zh_tw,package stats,,,0,0.0,1391
-zh_tw,name,type,desktop,0.13,3.54,795
-zh_tw,summary,type,desktop,0.13,3.54,795
-zh_tw,description,type,desktop,0.13,3.54,795
-zh_tw,package stats,type,desktop,0,0.0,795
 zh_TW,name,,,16.25,36.89,1391
 zh_TW,summary,,,25.16,43.39,1391
 zh_TW,description,,,12.08,32.59,1391
@@ -2039,6 +2031,14 @@ zh_TW,name,type,desktop,20.38,40.28,795
 zh_TW,summary,type,desktop,35.6,47.88,795
 zh_TW,description,type,desktop,20.75,40.56,795
 zh_TW,package stats,type,desktop,8.05,27.21,795
+zh_tw,name,,,0.07,2.68,1391
+zh_tw,summary,,,0.07,2.68,1391
+zh_tw,description,,,0.07,2.68,1391
+zh_tw,package stats,,,0,0.0,1391
+zh_tw,name,type,desktop,0.13,3.54,795
+zh_tw,summary,type,desktop,0.13,3.54,795
+zh_tw,description,type,desktop,0.13,3.54,795
+zh_tw,package stats,type,desktop,0,0.0,795
 zh_TW.Big5,name,,,0.07,2.68,1391
 zh_TW.Big5,summary,,,0,0.0,1391
 zh_TW.Big5,description,,,0,0.0,1391
