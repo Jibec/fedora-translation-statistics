@@ -2023,14 +2023,6 @@ zh_HK,name,type,desktop,10.19,30.25,795
 zh_HK,summary,type,desktop,15.09,35.8,795
 zh_HK,description,type,desktop,7.8,26.82,795
 zh_HK,package stats,type,desktop,0.75,8.65,795
-zh_TW,name,,,16.25,36.89,1391
-zh_TW,summary,,,25.16,43.39,1391
-zh_TW,description,,,12.08,32.59,1391
-zh_TW,package stats,,,5.25,22.3,1391
-zh_TW,name,type,desktop,20.38,40.28,795
-zh_TW,summary,type,desktop,35.6,47.88,795
-zh_TW,description,type,desktop,20.75,40.56,795
-zh_TW,package stats,type,desktop,8.05,27.21,795
 zh_tw,name,,,0.07,2.68,1391
 zh_tw,summary,,,0.07,2.68,1391
 zh_tw,description,,,0.07,2.68,1391
@@ -2039,6 +2031,14 @@ zh_tw,name,type,desktop,0.13,3.54,795
 zh_tw,summary,type,desktop,0.13,3.54,795
 zh_tw,description,type,desktop,0.13,3.54,795
 zh_tw,package stats,type,desktop,0,0.0,795
+zh_TW,name,,,16.25,36.89,1391
+zh_TW,summary,,,25.16,43.39,1391
+zh_TW,description,,,12.08,32.59,1391
+zh_TW,package stats,,,5.25,22.3,1391
+zh_TW,name,type,desktop,20.38,40.28,795
+zh_TW,summary,type,desktop,35.6,47.88,795
+zh_TW,description,type,desktop,20.75,40.56,795
+zh_TW,package stats,type,desktop,8.05,27.21,795
 zh_TW.Big5,name,,,0.07,2.68,1391
 zh_TW.Big5,summary,,,0,0.0,1391
 zh_TW.Big5,description,,,0,0.0,1391
