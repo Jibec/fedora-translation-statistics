@@ -279,14 +279,6 @@ da_DK,name,type,desktop,0,0.0,1050
 da_DK,summary,type,desktop,0.1,3.08,1050
 da_DK,description,type,desktop,0,0.0,1050
 da_DK,package stats,type,desktop,0.1,3.08,1050
-DE,name,,,0,0.0,1416
-DE,summary,,,0.07,2.66,1416
-DE,description,,,0,0.0,1416
-DE,package stats,,,0,0.0,1416
-DE,name,type,desktop,0,0.0,1050
-DE,summary,type,desktop,0.1,3.08,1050
-DE,description,type,desktop,0,0.0,1050
-DE,package stats,type,desktop,0,0.0,1050
 de,name,,,12.36,32.91,1416
 de,summary,,,34.46,47.52,1416
 de,description,,,9.32,29.07,1416
@@ -295,6 +287,14 @@ de,name,type,desktop,14.67,35.38,1050
 de,summary,type,desktop,44.19,49.66,1050
 de,description,type,desktop,12.57,33.15,1050
 de,package stats,type,desktop,16.0,36.66,1050
+DE,name,,,0,0.0,1416
+DE,summary,,,0.07,2.66,1416
+DE,description,,,0,0.0,1416
+DE,package stats,,,0,0.0,1416
+DE,name,type,desktop,0,0.0,1050
+DE,summary,type,desktop,0.1,3.08,1050
+DE,description,type,desktop,0,0.0,1050
+DE,package stats,type,desktop,0,0.0,1050
 de_CH,name,,,0.21,4.6,1416
 de_CH,summary,,,0.21,4.6,1416
 de_CH,description,,,0,0.0,1416
@@ -1367,14 +1367,6 @@ pt,name,type,desktop,13.05,33.68,1050
 pt,summary,type,desktop,30.67,46.11,1050
 pt,description,type,desktop,10.0,30.0,1050
 pt,package stats,type,desktop,8.1,27.28,1050
-pt_BR,name,,,10.95,31.22,1416
-pt_BR,summary,,,26.84,44.31,1416
-pt_BR,description,,,9.6,29.47,1416
-pt_BR,package stats,,,11.09,31.4,1416
-pt_BR,name,type,desktop,12.67,33.26,1050
-pt_BR,summary,type,desktop,33.81,47.31,1050
-pt_BR,description,type,desktop,12.76,33.37,1050
-pt_BR,package stats,type,desktop,14.29,34.99,1050
 pt_br,name,,,0,0.0,1416
 pt_br,summary,,,0.07,2.66,1416
 pt_br,description,,,0,0.0,1416
@@ -1383,6 +1375,14 @@ pt_br,name,type,desktop,0,0.0,1050
 pt_br,summary,type,desktop,0.1,3.08,1050
 pt_br,description,type,desktop,0,0.0,1050
 pt_br,package stats,type,desktop,0,0.0,1050
+pt_BR,name,,,10.95,31.22,1416
+pt_BR,summary,,,26.84,44.31,1416
+pt_BR,description,,,9.6,29.47,1416
+pt_BR,package stats,,,11.09,31.4,1416
+pt_BR,name,type,desktop,12.67,33.26,1050
+pt_BR,summary,type,desktop,33.81,47.31,1050
+pt_BR,description,type,desktop,12.76,33.37,1050
+pt_BR,package stats,type,desktop,14.29,34.99,1050
 pt_PT,name,,,0.14,3.76,1416
 pt_PT,summary,,,0.56,7.5,1416
 pt_PT,description,,,0.07,2.66,1416
