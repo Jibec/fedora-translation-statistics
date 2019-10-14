@@ -335,14 +335,6 @@ da,name,type,desktop,12.61,33.19,920
 da,summary,type,desktop,33.04,47.04,920
 da,description,type,desktop,20.22,40.16,920
 da,package stats,type,desktop,16.85,37.43,920
-DE,name,,,0,0.0,1668
-DE,summary,,,0.06,2.45,1668
-DE,description,,,0,0.0,1668
-DE,package stats,,,0,0.0,1668
-DE,name,type,desktop,0,0.0,920
-DE,summary,type,desktop,0.11,3.3,920
-DE,description,type,desktop,0,0.0,920
-DE,package stats,type,desktop,0,0.0,920
 de,name,,,16.85,37.43,1668
 de,summary,,,39.03,48.78,1668
 de,description,,,18.59,38.9,1668
@@ -351,6 +343,14 @@ de,name,type,desktop,14.67,35.38,920
 de,summary,type,desktop,51.74,49.97,920
 de,description,type,desktop,33.04,47.04,920
 de,package stats,type,desktop,29.67,45.68,920
+DE,name,,,0,0.0,1668
+DE,summary,,,0.06,2.45,1668
+DE,description,,,0,0.0,1668
+DE,package stats,,,0,0.0,1668
+DE,name,type,desktop,0,0.0,920
+DE,summary,type,desktop,0.11,3.3,920
+DE,description,type,desktop,0,0.0,920
+DE,package stats,type,desktop,0,0.0,920
 de-DE,name,,,0,0.0,1668
 de-DE,summary,,,0.06,2.45,1668
 de-DE,description,,,0,0.0,1668
