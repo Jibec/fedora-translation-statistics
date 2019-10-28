@@ -319,14 +319,6 @@ da,name,type,desktop,13.33,33.98,848
 da,summary,type,desktop,33.14,47.07,848
 da,description,type,desktop,19.1,39.31,848
 da,package stats,type,desktop,10.85,31.1,848
-DE,name,,,0,0.0,1483
-DE,summary,,,0.07,2.6,1483
-DE,description,,,0,0.0,1483
-DE,package stats,,,0,0.0,1483
-DE,name,type,desktop,0,0.0,848
-DE,summary,type,desktop,0.12,3.43,848
-DE,description,type,desktop,0,0.0,848
-DE,package stats,type,desktop,0,0.0,848
 de,name,,,13.15,33.79,1483
 de,summary,,,34.19,47.43,1483
 de,description,,,16.99,37.56,1483
@@ -335,6 +327,14 @@ de,name,type,desktop,14.86,35.57,848
 de,summary,type,desktop,51.06,49.99,848
 de,description,type,desktop,29.6,45.65,848
 de,package stats,type,desktop,21.7,41.22,848
+DE,name,,,0,0.0,1483
+DE,summary,,,0.07,2.6,1483
+DE,description,,,0,0.0,1483
+DE,package stats,,,0,0.0,1483
+DE,name,type,desktop,0,0.0,848
+DE,summary,type,desktop,0.12,3.43,848
+DE,description,type,desktop,0,0.0,848
+DE,package stats,type,desktop,0,0.0,848
 de-DE,name,,,0,0.0,1483
 de-DE,summary,,,0.07,2.6,1483
 de-DE,description,,,0,0.0,1483
@@ -1495,14 +1495,6 @@ pt,name,type,desktop,13.56,34.24,848
 pt,summary,type,desktop,37.74,48.47,848
 pt,description,type,desktop,26.65,44.21,848
 pt,package stats,type,desktop,12.97,33.6,848
-pt-br,name,,,0,0.0,1483
-pt-br,summary,,,0.07,2.6,1483
-pt-br,description,,,0.07,2.6,1483
-pt-br,package stats,,,0.07,2.6,1483
-pt-br,name,type,desktop,0,0.0,848
-pt-br,summary,type,desktop,0.12,3.43,848
-pt-br,description,type,desktop,0.12,3.43,848
-pt-br,package stats,type,desktop,0.12,3.43,848
 pt-BR,name,,,0.13,3.67,1483
 pt-BR,summary,,,5.12,22.05,1483
 pt-BR,description,,,5.87,23.5,1483
@@ -1511,6 +1503,14 @@ pt-BR,name,type,desktop,0.12,3.43,848
 pt-BR,summary,type,desktop,8.84,28.39,848
 pt-BR,description,type,desktop,10.26,30.34,848
 pt-BR,package stats,type,desktop,0,0.0,848
+pt-br,name,,,0,0.0,1483
+pt-br,summary,,,0.07,2.6,1483
+pt-br,description,,,0.07,2.6,1483
+pt-br,package stats,,,0.07,2.6,1483
+pt-br,name,type,desktop,0,0.0,848
+pt-br,summary,type,desktop,0.12,3.43,848
+pt-br,description,type,desktop,0.12,3.43,848
+pt-br,package stats,type,desktop,0.12,3.43,848
 pt_BR,name,,,13.42,34.09,1483
 pt_BR,summary,,,26.37,44.06,1483
 pt_BR,description,,,10.52,30.68,1483
@@ -2135,14 +2135,6 @@ zh,name,type,desktop,0,0.0,848
 zh,summary,type,desktop,0.24,4.85,848
 zh,description,type,desktop,0.12,3.43,848
 zh,package stats,type,desktop,0.47,6.85,848
-zh-cn,name,,,0,0.0,1483
-zh-cn,summary,,,0.07,2.6,1483
-zh-cn,description,,,0.07,2.6,1483
-zh-cn,package stats,,,0,0.0,1483
-zh-cn,name,type,desktop,0,0.0,848
-zh-cn,summary,type,desktop,0.12,3.43,848
-zh-cn,description,type,desktop,0.12,3.43,848
-zh-cn,package stats,type,desktop,0,0.0,848
 zh-CN,name,,,0.94,9.67,1483
 zh-CN,summary,,,5.53,22.86,1483
 zh-CN,description,,,3.44,18.22,1483
@@ -2151,6 +2143,14 @@ zh-CN,name,type,desktop,0.59,7.66,848
 zh-CN,summary,type,desktop,7.78,26.79,848
 zh-CN,description,type,desktop,6.01,23.77,848
 zh-CN,package stats,type,desktop,0,0.0,848
+zh-cn,name,,,0,0.0,1483
+zh-cn,summary,,,0.07,2.6,1483
+zh-cn,description,,,0.07,2.6,1483
+zh-cn,package stats,,,0,0.0,1483
+zh-cn,name,type,desktop,0,0.0,848
+zh-cn,summary,type,desktop,0.12,3.43,848
+zh-cn,description,type,desktop,0.12,3.43,848
+zh-cn,package stats,type,desktop,0,0.0,848
 zh-Hant,name,,,0,0.0,1483
 zh-Hant,summary,,,0,0.0,1483
 zh-Hant,description,,,0.07,2.6,1483
@@ -2167,14 +2167,6 @@ zh-HK,name,type,desktop,0,0.0,848
 zh-HK,summary,type,desktop,0.12,3.43,848
 zh-HK,description,type,desktop,0.12,3.43,848
 zh-HK,package stats,type,desktop,0,0.0,848
-zh-TW,name,,,2.76,16.4,1483
-zh-TW,summary,,,5.12,22.05,1483
-zh-TW,description,,,4.65,21.06,1483
-zh-TW,package stats,,,0,0.0,1483
-zh-TW,name,type,desktop,4.01,19.62,848
-zh-TW,summary,type,desktop,7.08,25.64,848
-zh-TW,description,type,desktop,8.14,27.34,848
-zh-TW,package stats,type,desktop,0,0.0,848
 zh-tw,name,,,0.07,2.6,1483
 zh-tw,summary,,,0.07,2.6,1483
 zh-tw,description,,,0.07,2.6,1483
@@ -2183,6 +2175,14 @@ zh-tw,name,type,desktop,0.12,3.43,848
 zh-tw,summary,type,desktop,0.12,3.43,848
 zh-tw,description,type,desktop,0.12,3.43,848
 zh-tw,package stats,type,desktop,0,0.0,848
+zh-TW,name,,,2.76,16.4,1483
+zh-TW,summary,,,5.12,22.05,1483
+zh-TW,description,,,4.65,21.06,1483
+zh-TW,package stats,,,0,0.0,1483
+zh-TW,name,type,desktop,4.01,19.62,848
+zh-TW,summary,type,desktop,7.08,25.64,848
+zh-TW,description,type,desktop,8.14,27.34,848
+zh-TW,package stats,type,desktop,0,0.0,848
 zh_CN,name,,,14.09,34.79,1483
 zh_CN,summary,,,22.86,41.99,1483
 zh_CN,description,,,7.89,26.96,1483
