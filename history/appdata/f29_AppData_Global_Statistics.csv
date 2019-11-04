@@ -415,14 +415,6 @@ el_GR,name,type,desktop,0.11,3.25,945
 el_GR,summary,type,desktop,0.21,4.6,945
 el_GR,description,type,desktop,0.11,3.25,945
 el_GR,package stats,type,desktop,0,0.0,945
-en,name,,,0.18,4.22,1683
-en,summary,,,0.53,7.29,1683
-en,description,,,0,0.0,1683
-en,package stats,,,0.36,5.96,1683
-en,name,type,desktop,0.32,5.63,945
-en,summary,type,desktop,0.95,9.71,945
-en,description,type,desktop,0,0.0,945
-en,package stats,type,desktop,0.63,7.94,945
 EN,name,,,0,0.0,1683
 EN,summary,,,0.06,2.44,1683
 EN,description,,,0,0.0,1683
@@ -431,6 +423,14 @@ EN,name,type,desktop,0,0.0,945
 EN,summary,type,desktop,0.11,3.25,945
 EN,description,type,desktop,0,0.0,945
 EN,package stats,type,desktop,0,0.0,945
+en,name,,,0.18,4.22,1683
+en,summary,,,0.53,7.29,1683
+en,description,,,0,0.0,1683
+en,package stats,,,0.36,5.96,1683
+en,name,type,desktop,0.32,5.63,945
+en,summary,type,desktop,0.95,9.71,945
+en,description,type,desktop,0,0.0,945
+en,package stats,type,desktop,0.63,7.94,945
 en-GB,name,,,0,0.0,1683
 en-GB,summary,,,0.24,4.87,1683
 en-GB,description,,,2.97,16.98,1683
