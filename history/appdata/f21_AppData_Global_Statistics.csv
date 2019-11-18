@@ -271,14 +271,6 @@ da_DK,name,type,desktop,0,0.0,1059
 da_DK,summary,type,desktop,0.09,3.07,1059
 da_DK,description,type,desktop,0,0.0,1059
 da_DK,package stats,type,desktop,0.09,3.07,1059
-DE,name,,,0,0.0,1490
-DE,summary,,,0.07,2.59,1490
-DE,description,,,0,0.0,1490
-DE,package stats,,,0,0.0,1490
-DE,name,type,desktop,0,0.0,1059
-DE,summary,type,desktop,0.09,3.07,1059
-DE,description,type,desktop,0,0.0,1059
-DE,package stats,type,desktop,0,0.0,1059
 de,name,,,10.27,30.35,1490
 de,summary,,,31.54,46.47,1490
 de,description,,,8.26,27.52,1490
@@ -287,6 +279,14 @@ de,name,type,desktop,12.65,33.25,1059
 de,summary,type,desktop,42.3,49.4,1059
 de,description,type,desktop,11.61,32.04,1059
 de,package stats,type,desktop,14.73,35.44,1059
+DE,name,,,0,0.0,1490
+DE,summary,,,0.07,2.59,1490
+DE,description,,,0,0.0,1490
+DE,package stats,,,0,0.0,1490
+DE,name,type,desktop,0,0.0,1059
+DE,summary,type,desktop,0.09,3.07,1059
+DE,description,type,desktop,0,0.0,1059
+DE,package stats,type,desktop,0,0.0,1059
 de_CH,name,,,0.2,4.48,1490
 de_CH,summary,,,0.2,4.48,1490
 de_CH,description,,,0,0.0,1490
@@ -1543,14 +1543,6 @@ sr@ije,name,type,desktop,0.38,6.13,1059
 sr@ije,summary,type,desktop,0.28,5.31,1059
 sr@ije,description,type,desktop,0,0.0,1059
 sr@ije,package stats,type,desktop,0,0.0,1059
-sr@Ijekavian,name,,,0.07,2.59,1490
-sr@Ijekavian,summary,,,0,0.0,1490
-sr@Ijekavian,description,,,0,0.0,1490
-sr@Ijekavian,package stats,,,0,0.0,1490
-sr@Ijekavian,name,type,desktop,0.09,3.07,1059
-sr@Ijekavian,summary,type,desktop,0,0.0,1059
-sr@Ijekavian,description,type,desktop,0,0.0,1059
-sr@Ijekavian,package stats,type,desktop,0,0.0,1059
 sr@ijekavian,name,,,2.95,16.93,1490
 sr@ijekavian,summary,,,2.15,14.5,1490
 sr@ijekavian,description,,,0,0.0,1490
@@ -1559,6 +1551,14 @@ sr@ijekavian,name,type,desktop,4.15,19.96,1059
 sr@ijekavian,summary,type,desktop,3.02,17.12,1059
 sr@ijekavian,description,type,desktop,0,0.0,1059
 sr@ijekavian,package stats,type,desktop,0.57,7.51,1059
+sr@Ijekavian,name,,,0.07,2.59,1490
+sr@Ijekavian,summary,,,0,0.0,1490
+sr@Ijekavian,description,,,0,0.0,1490
+sr@Ijekavian,package stats,,,0,0.0,1490
+sr@Ijekavian,name,type,desktop,0.09,3.07,1059
+sr@Ijekavian,summary,type,desktop,0,0.0,1059
+sr@Ijekavian,description,type,desktop,0,0.0,1059
+sr@Ijekavian,package stats,type,desktop,0,0.0,1059
 sr@ijekavianlatin,name,,,1.68,12.84,1490
 sr@ijekavianlatin,summary,,,2.15,14.5,1490
 sr@ijekavianlatin,description,,,0,0.0,1490

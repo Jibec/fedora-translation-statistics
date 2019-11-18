@@ -343,14 +343,6 @@ da,name,type,desktop,12.34,32.89,924
 da,summary,type,desktop,34.74,47.61,924
 da,description,type,desktop,20.78,40.57,924
 da,package stats,type,desktop,14.72,35.43,924
-de,name,,,16.16,36.81,1603
-de,summary,,,40.49,49.09,1603
-de,description,,,20.52,40.39,1603
-de,package stats,,,17.84,38.29,1603
-de,name,type,desktop,13.96,34.66,924
-de,summary,type,desktop,52.92,49.91,924
-de,description,type,desktop,35.06,47.72,924
-de,package stats,type,desktop,27.71,44.75,924
 DE,name,,,0,0.0,1603
 DE,summary,,,0.06,2.5,1603
 DE,description,,,0,0.0,1603
@@ -359,6 +351,14 @@ DE,name,type,desktop,0,0.0,924
 DE,summary,type,desktop,0.11,3.29,924
 DE,description,type,desktop,0,0.0,924
 DE,package stats,type,desktop,0,0.0,924
+de,name,,,16.16,36.81,1603
+de,summary,,,40.49,49.09,1603
+de,description,,,20.52,40.39,1603
+de,package stats,,,17.84,38.29,1603
+de,name,type,desktop,13.96,34.66,924
+de,summary,type,desktop,52.92,49.91,924
+de,description,type,desktop,35.06,47.72,924
+de,package stats,type,desktop,27.71,44.75,924
 de-DE,name,,,0,0.0,1603
 de-DE,summary,,,0.06,2.5,1603
 de-DE,description,,,0,0.0,1603
@@ -423,14 +423,6 @@ el_GR,name,type,desktop,0.11,3.29,924
 el_GR,summary,type,desktop,0.22,4.65,924
 el_GR,description,type,desktop,0.11,3.29,924
 el_GR,package stats,type,desktop,0,0.0,924
-EN,name,,,0,0.0,1603
-EN,summary,,,0.06,2.5,1603
-EN,description,,,0,0.0,1603
-EN,package stats,,,0,0.0,1603
-EN,name,type,desktop,0,0.0,924
-EN,summary,type,desktop,0.11,3.29,924
-EN,description,type,desktop,0,0.0,924
-EN,package stats,type,desktop,0,0.0,924
 en,name,,,0.19,4.32,1603
 en,summary,,,0.56,7.47,1603
 en,description,,,0,0.0,1603
@@ -439,6 +431,14 @@ en,name,type,desktop,0.32,5.69,924
 en,summary,type,desktop,0.97,9.82,924
 en,description,type,desktop,0,0.0,924
 en,package stats,type,desktop,0.43,6.57,924
+EN,name,,,0,0.0,1603
+EN,summary,,,0.06,2.5,1603
+EN,description,,,0,0.0,1603
+EN,package stats,,,0,0.0,1603
+EN,name,type,desktop,0,0.0,924
+EN,summary,type,desktop,0.11,3.29,924
+EN,description,type,desktop,0,0.0,924
+EN,package stats,type,desktop,0,0.0,924
 en-GB,name,,,0,0.0,1603
 en-GB,summary,,,0.25,4.99,1603
 en-GB,description,,,3.18,17.55,1603
